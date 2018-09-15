@@ -1,2 +1,2 @@
 # Leetcode
-LeetCode Problems' Solutions
+LeetCode Problems' Solutions By Tag
