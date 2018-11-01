@@ -26,8 +26,18 @@ public class Main {
 //        CountAndSay countAndSay = new CountAndSay();
 //        String str = countAndSay.countAndSay(4);
 //        System.out.println("res: "+str);
-        String S = "bbGPuClvxA XYbNe";
-        GoatLatin goatLatin = new GoatLatin();
-        System.out.println(goatLatin.toGoatLatin(S));
+//        String S = "bbGPuClvxA XYbNe";
+//        GoatLatin goatLatin = new GoatLatin();
+//        System.out.println(goatLatin.toGoatLatin(S));
+//        String s = "b   a   a";
+//        LengthofLastWord lengthofLastWord = new LengthofLastWord();
+//        System.out.println(lengthofLastWord.lengthOfLastWord(s));
+//        LongestCommonPrefix longestCommonPrefix = new LongestCommonPrefix();
+//        String[] arr = {"flower","flow","flight"};
+//        System.out.println(longestCommonPrefix.longestCommonPrefix(arr));
+//        NumberofSegmentsinaString numberofSegmentsinaString = new NumberofSegmentsinaString();
+//        System.out.println(numberofSegmentsinaString.countSegments("foo bar"));
+        KMP k = new KMP();
+        System.out.println(k.ViolentMatch("BBC ABCDAB ABCDABCDABDE","ABCDABD"));
     }
 }
