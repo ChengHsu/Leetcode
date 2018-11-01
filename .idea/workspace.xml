@@ -2,54 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="568117d6-3877-4c5c-87ca-bc6a35a28b9e" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Sort/Main.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Sort/ValidAnagram.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/String/GroupsofSpecialEquivalentStrings.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/String/KMP.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/String/LengthofLastWord.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/String/LongestCommonPrefix.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/String/LongestUncommonSubsequence.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/String/NumberofSegmentsinaString.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/String/RepeatedSubstringPattern.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Tree/AverageofLevelsinBinaryTree.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Tree/BalancedBinaryTree.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Tree/BinaryTreeInorderTraversal.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Tree/BinaryTreeLevelOrderTraversal.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Tree/BinaryTreePaths.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Tree/BinaryTreeTilt.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Tree/ConvertBSTtoGreaterTree.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Tree/ConvertSortedArrayToBinarySearchTree.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Tree/DiameterOfBinaryTree.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Tree/FindModeInBinarySearchTree.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Tree/IncreasingOrderSearchTree.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Tree/InvertBinaryTree.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Tree/LeafSimilarTrees.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Tree/LongestUnivaluePath.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Tree/LowestCommonAncestorOfABinarySearchTree.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Tree/Main.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Tree/MaximumDepthOfBinaryTree.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Tree/MaximumDepthofNaryTree.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Tree/MergeTwoBinaryTrees.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Tree/MinimumDepthofBinaryTree.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Tree/NaryTreeLevelOrderTraversal.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Tree/NaryTreePostorderTraversal.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Tree/NaryTreePreorderTraversal.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Tree/Node.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Tree/PathSum.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Tree/SameTree.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Tree/SearchinaBinarySearchTree.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Tree/SecondMinimumNodeInABinaryTree.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Tree/SubtreeofAnotherTree.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Tree/SumOfLeftLeaves.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Tree/SymmetricTree.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Tree/TreeNode.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Tree/TrimABinarySearchTree.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Tree/TwoSumIV.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Tree/BinaryTreePreorderTraversal.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeTest/String/GoatLatin.class" afterPath="$PROJECT_DIR$/out/production/LeetcodeTest/String/GoatLatin.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeTest/String/Main.class" afterPath="$PROJECT_DIR$/out/production/LeetcodeTest/String/Main.class" />
-      <change beforePath="$PROJECT_DIR$/src/String/Main.java" afterPath="$PROJECT_DIR$/src/String/Main.java" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/TwoSumIV.java" afterPath="$PROJECT_DIR$/src/Tree/TwoSumIV.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -71,22 +26,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FindModeInBinarySearchTree.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Tree/FindModeInBinarySearchTree.java">
+      <file leaf-file-name="BinaryTreePreorderTraversal.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Tree/BinaryTreePreorderTraversal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="16" column="12" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TwoSumIV.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Tree/TwoSumIV.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="42" />
-              <folding />
+            <state relative-caret-position="225">
+              <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -120,7 +67,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/String/ConstructStringFromBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/String/DetectCapital.java" />
         <option value="$PROJECT_DIR$/src/String/CountBinarySubstrings.java" />
         <option value="$PROJECT_DIR$/src/String/FirstUniqueCharacterinaString.java" />
@@ -145,7 +91,6 @@
         <option value="$PROJECT_DIR$/src/Tree/MergeTwoBinaryTrees.java" />
         <option value="$PROJECT_DIR$/src/Tree/BinaryTreeLevelOrderTraversal.java" />
         <option value="$PROJECT_DIR$/src/Tree/BalancedBinaryTree.java" />
-        <option value="$PROJECT_DIR$/src/Tree/TwoSumIV.java" />
         <option value="$PROJECT_DIR$/src/Tree/SymmetricTree.java" />
         <option value="$PROJECT_DIR$/src/Tree/SameTree.java" />
         <option value="$PROJECT_DIR$/src/Tree/SumOfLeftLeaves.java" />
@@ -171,6 +116,8 @@
         <option value="$PROJECT_DIR$/src/Tree/PathSum.java" />
         <option value="$PROJECT_DIR$/src/Tree/DiameterOfBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/Tree/LongestUnivaluePath.java" />
+        <option value="$PROJECT_DIR$/src/Tree/TwoSumIV.java" />
+        <option value="$PROJECT_DIR$/src/Tree/BinaryTreePreorderTraversal.java" />
       </list>
     </option>
   </component>
@@ -486,12 +433,12 @@
       <workItem from="1540943025815" duration="6441000" />
       <workItem from="1540955761604" duration="1649000" />
       <workItem from="1541041774123" duration="297000" />
-      <workItem from="1541098473291" duration="2761000" />
+      <workItem from="1541098473291" duration="4117000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="403176000" />
+    <option name="totallyTimeSpent" value="404532000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -576,13 +523,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/String/FirstUniqueCharacterinaString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="12" column="56" lean-forward="false" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/String/CountAndSay.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -866,14 +806,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tree/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="95" column="31" lean-forward="false" selection-start-line="95" selection-start-column="31" selection-end-line="95" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Tree/BinaryTreeInorderTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -938,14 +870,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tree/FindModeInBinarySearchTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="16" column="12" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Tree/IncreasingOrderSearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -964,9 +888,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tree/TwoSumIV.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="42" />
+        <state relative-caret-position="345">
+          <caret line="26" column="22" lean-forward="false" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree/FindModeInBinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="16" column="12" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="95" column="31" lean-forward="false" selection-start-line="95" selection-start-column="31" selection-end-line="95" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree/BinaryTreePreorderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
