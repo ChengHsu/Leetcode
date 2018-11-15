@@ -10,6 +10,9 @@ import java.util.List;
  * @Author: Created by xucheng.
  */
 public class LeafSimilarTrees {
+    // Traverse the given trees in in-order to get their leaf sequence
+    // Store their sequence separately in two lists
+    // Compare two lists
     public boolean leafSimilar(TreeNode root1, TreeNode root2) {
         List<Integer> leafSeq1 = new ArrayList<>();
         List<Integer> leafSeq2 = new ArrayList<>();

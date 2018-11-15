@@ -1,8 +1,5 @@
 package Array;
 
-import java.util.HashSet;
-import java.util.Set;
-
 /**
  * @Descpription: #26.
  * Given a sorted array nums, remove the duplicates in-place such that each element appear only once and return the new length.
@@ -11,17 +8,30 @@ import java.util.Set;
  */
 public class RemoveDuplicates {
 
+    //    public int removeDuplicates(int[] nums) {
+//        if(nums.length == 0 ){
+//            return 0;
+//        }
+//        int idx = 0;
+//        Set<Integer> set = new HashSet<>();
+//        for( int i = 0, len = nums.length; i < len ; i++) {
+//            if(set.add(nums[i])) {
+//                nums[idx++] = nums[i];
+//            }
+//        }
+//        return idx;
+//    }
+    // Fast and slow pointers
     public int removeDuplicates(int[] nums) {
-        if(nums.length == 0 ){
-            return 0;
-        }
-        int idx = 0;
-        Set<Integer> set = new HashSet<>();
-        for( int i = 0, len = nums.length; i < len ; i++) {
-            if(set.add(nums[i])) {
-                nums[idx++] = nums[i];
+        int slow = 0;
+        // Use the fast pointers to skip duplicates when nums[fast] == nums[slow]
+        // Add slow by 1 and set it to num[fast] store a different value when nums[fast] != nums[slow]
+        for (int fast  = 1; fast < nums.length; fast++) {
+            if (nums[fast] != nums[slow]) {
+                slow++;
+                nums[slow] = nums[fast];
             }
         }
-        return idx;
+        return slow + 1;
     }
 }

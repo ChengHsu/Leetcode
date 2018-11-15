@@ -12,47 +12,50 @@ import java.util.*;
  * @Author: Created by xucheng.
  */
 public class BinaryTreeLevelOrderTraversal {
+    // BFS using Queue
     public List<List<Integer>> levelOrder(TreeNode root) {
         List<List<Integer>> res = new ArrayList<>();
         if (root == null)
             return res;
-        Queue<TreeNode> q = new LinkedList<>();
-        q.add(root);
-        while (!q.isEmpty()) {
-            Queue<TreeNode> tmpQ = new LinkedList<>();
-            List<Integer> tmpList = new ArrayList<>();
-            while (!q.isEmpty()) {
-                TreeNode tn = q.remove();
-                tmpList.add(tn.val);
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.add(root);
+        while (!queue.isEmpty()) {
+            List<Integer> level = new ArrayList<>();
+            int size = queue.size();
+            for (int i = 0; i < size; i++) {
+                TreeNode tn = queue.poll();
+                level.add(tn.val);
                 if (tn.left != null)
-                    tmpQ.add(tn.left);
+                    queue.add(tn.left);
                 if (tn.right != null)
-                    tmpQ.add(tn.right);
+                    queue.add(tn.right);
             }
-            q = tmpQ;
-            res.add(tmpList);
+            res.add(level);
         }
         return res;
     }
 
+
     public List<List<Integer>> levelOrderBottom(TreeNode root) {
+        // Do a reverse of result list
+        // the rest r Same as BinaryTreeLevelOrderTraversal
         List<List<Integer>> res = new ArrayList<>();
         if (root == null)
             return res;
         Queue<TreeNode> queue = new LinkedList<>();
-        queue.offer(root);
+        queue.add(root);
         while (!queue.isEmpty()) {
+            List<Integer> level = new ArrayList<>();
             int size = queue.size();
-            List<Integer> tmpList = new ArrayList<>();
             for (int i = 0; i < size; i++) {
                 TreeNode tn = queue.poll();
-                tmpList.add(tn.val);
+                level.add(tn.val);
                 if (tn.left != null)
-                    queue.offer(tn.left);
+                    queue.add(tn.left);
                 if (tn.right != null)
-                    queue.offer(tn.right);
+                    queue.add(tn.right);
             }
-            res.add(tmpList);
+            res.add(level);
         }
         Collections.reverse(res);
         return res;

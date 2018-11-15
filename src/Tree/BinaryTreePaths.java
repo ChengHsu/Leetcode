@@ -22,16 +22,13 @@ public class BinaryTreePaths {
         System.out.println("root curr: "+currPath);
         if (root.left == null && root.right == null) {
             paths.add(currPath);
-            System.out.println("leave curr:" + currPath);
             return;
         }
         if (root.left != null) {
-            System.out.println("left curr:"+currPath);
             traversal(root.left, currPath +"->",paths);
         }
         // After recursive left sub tree ,currPath :"1"
         if (root.right != null) {
-            System.out.println("right curr:"+currPath);
             traversal(root.right,currPath +"->",paths);
         }
     }

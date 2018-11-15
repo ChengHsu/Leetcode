@@ -11,21 +11,22 @@ import java.util.Queue;
  * @Author: Created by xucheng.
  */
 public class NaryTreeLevelOrderTraversal {
-    // BFS
+    // BFS using queue
     public List<List<Integer>> levelOrder(Node root) {
-        if (root == null)
-            return new ArrayList<>();
         List<List<Integer>> res = new ArrayList<>();
+        if (root == null)
+            return res;
         Queue<Node> queue = new LinkedList<>();
         queue.offer(root);
         while (!queue.isEmpty()) {
             int size = queue.size();
             List<Integer> level = new ArrayList<>();
-            for (int i = 0; i < size; i++) {
+            for (int i = 0 ; i < size; i++) {
                 Node node = queue.poll();
                 level.add(node.val);
-                for (Node child: node.children)
-                    queue.offer(child);
+                for (Node chid: node.children) {
+                    queue.offer(chid);
+                }
             }
             res.add(level);
         }

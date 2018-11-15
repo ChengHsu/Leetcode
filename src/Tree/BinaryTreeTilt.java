@@ -15,9 +15,13 @@ public class BinaryTreeTilt {
     {
         if(root==null )
             return 0;
+        // get the sum of all node values of the left sub-tree of current node
         int left=traverse(root.left);
+        // get the sum of all node values of the right sub-tree of current node
         int right=traverse(root.right);
+        // calculate the sum of all node's tilt so far
         tilt+=Math.abs(left-right);
+        // return sum of all node values plus value of current node
         return left+right+root.val;
     }
 }

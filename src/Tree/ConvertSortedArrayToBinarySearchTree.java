@@ -8,7 +8,7 @@ package Tree;
  * @Author: Created by xucheng.
  */
 public class ConvertSortedArrayToBinarySearchTree {
-    // given array is in preorder sequence, use binary search
+    // Given array is in preorder sequence, use binary search
     public TreeNode sortedArrayToBST(int[] nums) {
         if (nums.length == 0)
             return null;

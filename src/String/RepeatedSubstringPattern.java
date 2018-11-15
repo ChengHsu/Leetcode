@@ -9,6 +9,23 @@ package String;
  */
 public class RepeatedSubstringPattern {
     public boolean repeatedSubstringPattern(String s) {
+        int len = s.length();
+        for (int i = len/2; i >= 1; i--) {
+            if (len % i == 0) {
+                // i = len of substring
+                // len / i = nums of substring
+                int nums = len / i;
+                String subStr = s.substring(0,i);
+                int j;
+                for (j = 1; j < nums; j++) {
+                    System.out.println(j*i+" "+j*i+i);
+                    if (!subStr.equals(s.substring(j*i, j*i + i)))
+                        break;
+                }
+                if (j == nums)
+                    return true;
+            }
+        }
         return false;
     }
 }
