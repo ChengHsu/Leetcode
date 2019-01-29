@@ -9,8 +9,15 @@ import java.util.*;
  * @Author: Created by xucheng.
  */
 public class BinaryTreeZigZagLevelOrderTraversal {
+    /**
+     * BFS using queue
+     * The nodes on even level should be added left->right
+     * The nodes on odd level should be added right->left
+     * At the beginning of each level, Must use a Deque to poll first and last node alternately.
+     * @param root
+     * @return
+     */
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
-        // BFS using queue
         // The nodes on even level should be added left->right
         // The nodes on odd level should be added right->left
         // At the beginning of each level, Must use a Deque to poll first and last node alternately.
@@ -22,10 +29,12 @@ public class BinaryTreeZigZagLevelOrderTraversal {
         boolean dir = true;
         while (!deque.isEmpty()) {
             List<Integer> level = new ArrayList<>();
+            System.out.println("level");
             int size = deque.size();
             for (int i = 0; i < size; i++) {
                 if (dir) {
                     TreeNode tn = deque.pollFirst();
+                    System.out.println("dir: "+ tn.val);
                     level.add(tn.val);
                     if (tn.left != null)
                         deque.addLast(tn.left);
@@ -34,6 +43,7 @@ public class BinaryTreeZigZagLevelOrderTraversal {
                 }
                 else {
                     TreeNode tn = deque.pollLast();
+                    System.out.println("!dir: "+ tn.val);
                     level.add(tn.val);
                     if (tn.right != null)
                         deque.addFirst(tn.right);
@@ -46,4 +56,6 @@ public class BinaryTreeZigZagLevelOrderTraversal {
         }
         return res;
     }
+
+
 }

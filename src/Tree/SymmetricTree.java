@@ -37,16 +37,18 @@ public class SymmetricTree {
     // Recursive
     // 1. two roots of 2 trees have the same value.
     // 2. The right subtree of each tree is a mirror reflection of the left subtree of the other tree.
-    public boolean isSymmetric(TreeNode root) {
-        return isMirror(root, root);
-    }
-    private boolean isMirror(TreeNode leftTn, TreeNode rightTn) {
-        if (leftTn == null && rightTn == null)
-            return true;
-        if (leftTn == null || rightTn == null)
-            return false;
-        return leftTn.val == rightTn.val && isMirror(leftTn.left,rightTn.right) && isMirror(leftTn.right,rightTn.left);
+//    public boolean isSymmetric(TreeNode root) {
+//        return isMirror(root, root);
+//    }
+//    private boolean isMirror(TreeNode leftTn, TreeNode rightTn) {
+//        if (leftTn == null && rightTn == null)
+//            return true;
+//        if (leftTn == null || rightTn == null)
+//            return false;
+//        return leftTn.val == rightTn.val && isMirror(leftTn.left,rightTn.right) && isMirror(leftTn.right,rightTn.left);
+//
+//    }
 
-    }
+
 
 }

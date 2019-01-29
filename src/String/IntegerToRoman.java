@@ -31,7 +31,6 @@ public class IntegerToRoman {
         int2roman.put(1000, "M");
 
         StringBuilder roman = new StringBuilder();
-        int count = 1;
         while (num > 0) {
             Map.Entry<Integer, String> max = null;
             // find largest roman <= number

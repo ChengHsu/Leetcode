@@ -56,6 +56,13 @@ public class UniqueEmailAddresses {
 //        return strings.size();
 //    }
 
+    /**
+     * Split every email into 2 parts: local and domain
+     * Just take the sub string before "+"
+     * Replace all "." with ""
+     * @param emails
+     * @return
+     */
     public int numUniqueEmails(String[] emails) {
         Set<String> set = new HashSet<>();
         for (String email: emails) {
@@ -63,9 +70,11 @@ public class UniqueEmailAddresses {
             String local = email.substring(0,split);
             String domain = email.substring(split);
             if (local.contains("+")) {
-                local = local.substring(local.indexOf('+'));
+                local = local.substring(0,local.indexOf('+'));
             }
-            local = local.replaceAll(".","");
+            System.out.println("bef: "+local);
+            local = local.replace(".","");
+            System.out.println(local+domain);
             set.add(local + domain);
         }
         return set.size();

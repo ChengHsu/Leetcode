@@ -15,10 +15,11 @@ public class LongestUncommonSubsequenceI {
         // a == b. either one can not be the other's LUS
         if (a.equals(b))
             return -1;
+        // either one cannot be a substring of the other one
         if (a.length() == b.length() && !a.equals(b)) {
             return a.length();
         }
-        // a.length != b.length
+        // a.length != b.length: The longer one is the LUS
         else {
             return Math.max(a.length(),b.length());
         }

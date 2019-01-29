@@ -7,13 +7,19 @@ package Tree;
  * @Author: Created by xucheng.
  */
 public class LowestCommonAncestorOfABinarySearchTree {
+    /**
+     * Property of BST: left.val < parent.val < right.val
+     * Traverse from top to bottom
+     * Find a root n such that p.val<n.val<q.val
+     * If current root.val > both, then go to its left subtree
+     * If current root.val < both, then go to its right subtree
+     * Else return current root
+     * @param root
+     * @param p
+     * @param q
+     * @return
+     */
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-        // Traverse from top to bottom
-        // Find a root n such that p.val<n.val<q.val
-        // If current root.val > both, then go to its left subtree
-        // If current root.val < both, then go to its right subtree
-        // Else return current root
-
         //Edge
         if (root == null || p == null || q == null)
             return null;

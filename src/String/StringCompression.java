@@ -1,8 +1,5 @@
 package String;
 
-import java.util.HashMap;
-import java.util.Map;
-
 /**
  * @Number: #443.String Compression
  * @Descpription: Given an array of characters, compress it in-place.

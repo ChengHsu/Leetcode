@@ -8,7 +8,6 @@ package Array;
  * @Author: Created by xucheng.
  */
 public class RemoveElement {
-
     public int removeElement(int[] nums, int val) {
         if(nums.length == 0) {
             return 0;
@@ -25,3 +24,5 @@ public class RemoveElement {
         return idx;
     }
 }
+
+

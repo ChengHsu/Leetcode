@@ -42,6 +42,7 @@ public class PascalTriangle {
         return triangle;
     }
 
+
 //    #118 v2
     public List<List<Integer>> generate_v2(int numRows) {
         List<List<Integer>> triangle = new ArrayList<>();
@@ -49,6 +50,8 @@ public class PascalTriangle {
         for(int i = 0; i < numRows; i++) {
 //          row不是被清空的，每次开始新的循环row中都保留着上一行的数
             row.add(0, 1);
+            System.out.println("new");
+            System.out.println(row);
             for(int j = 1; j < row.size()-1 ; j++){
                 row.set(j,row.get(j)+row.get(j+1));
             }
@@ -68,6 +71,23 @@ public class PascalTriangle {
             for(int j = 1; j < row.size()-1; j++) {
                 row.set(j, row.get(j) + row.get(j+1));
             }
+        }
+        return row;
+    }
+
+    public List<Integer> getRow_v(int rowIndex) {
+        List<Integer> row = new ArrayList<>();
+        if (rowIndex < 0)
+            return row;
+        for (int i = 0; i < rowIndex+1; i++) {
+            row.add(0,1);
+            System.out.println("before:"+row);
+            for (int j = 1; j < row.size()-1; j++) {
+                int tmp = row.get(j)+row.get(j+1);
+                System.out.println("add: "+ tmp);
+                row.set(j,row.get(j)+row.get(j+1));
+            }
+            System.out.println("after:"+row);
         }
         return row;
     }

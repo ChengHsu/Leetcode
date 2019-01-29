@@ -8,24 +8,27 @@ package Tree;
  */
 public class MinimumDepthofBinaryTree {
     // Recursion
-    int min = Integer.MAX_VALUE;
-    public int minDepth(TreeNode root) {
-        if (root == null)
-            return 0;
-        traversal(root, 0);
-        return min;
-    }
+//    int min = Integer.MAX_VALUE;
+//    public int minDepth(TreeNode root) {
+//        if (root == null)
+//            return 0;
+//        traversal(root, 0);
+//        return min;
+//    }
+//
+//    private void traversal(TreeNode root, int num) {
+//        num += 1;
+//        if (root.left == null && root.right == null) {
+//            if (num < min)
+//                min = num;
+//            return;
+//        }
+//        if (root.left != null)
+//            traversal(root.left, num);
+//        if (root.right != null)
+//            traversal(root.right, num);
+//    }
 
-    private void traversal(TreeNode root, int num) {
-        num += 1;
-        if (root.left == null && root.right == null) {
-            if (num < min)
-                min = num;
-            return;
-        }
-        if (root.left != null)
-            traversal(root.left, num);
-        if (root.right != null)
-            traversal(root.right, num);
-    }
+
+
 }

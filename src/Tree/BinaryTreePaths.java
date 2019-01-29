@@ -20,6 +20,7 @@ public class BinaryTreePaths {
     private void traversal(TreeNode root, String currPath, List<String> paths) {
         currPath += root.val;
         System.out.println("root curr: "+currPath);
+        // return condition: meet leaf node
         if (root.left == null && root.right == null) {
             paths.add(currPath);
             return;

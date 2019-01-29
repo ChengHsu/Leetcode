@@ -11,6 +11,7 @@ import java.util.List;
 public class BinaryTreePreorderTraversal {
     public List<Integer> preorderTraversal(TreeNode root) {
         List<Integer> res = new ArrayList<>();
+        // edge case
         if (root == null)
             return res;
         preorder(root,res);
@@ -26,4 +27,6 @@ public class BinaryTreePreorderTraversal {
         if (root.right != null)
             preorder(root.right,res);
     }
+
+
 }

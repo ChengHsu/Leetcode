@@ -15,6 +15,12 @@ import java.util.Set;
  * @Author: Created by xucheng.
  */
 public class UniqueMorseCodeWords {
+    /**
+     * convert every word to morse code
+     * add every code to HashSet to eliminate the duplicates
+     * @param words
+     * @return
+     */
     public int uniqueMorseRepresentations(String[] words) {
         String[] MORSE = {".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",
                 ".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--.."};

@@ -27,23 +27,25 @@ public class BalancedBinaryTree {
 
 
     // 在求解每个子树的高度的时候就比较左右子树是否平衡，不平衡立刻告诉根节点退出. O(n)
+    private boolean isBalanced = true;
     public boolean isBalanced(TreeNode root) {
         if (root == null)
             return true;
-        boolean isBalanced = true;
-        getHeight(root,isBalanced);
+        getHeight(root);
         return isBalanced;
     }
 
-    private int getHeight(TreeNode root, boolean isBalanced) {
+    private int getHeight(TreeNode root) {
         if (root == null)
             return 0;
-        int left = getHeight(root.left, isBalanced);
-        int right = getHeight(root.right, isBalanced);
-        if (Math.abs(left - right) > 1) {
+        System.out.println(root.val);
+        int leftHeight = getHeight(root.left);
+        int rightHeight = getHeight(root.right);
+        if (Math.abs(leftHeight - rightHeight) > 1) {
+            System.out.println("f");
             isBalanced = false;
             return -1;
         }
-        return Math.max(left,right) + 1;
+        else return Math.max(leftHeight,rightHeight) + 1;
     }
 }

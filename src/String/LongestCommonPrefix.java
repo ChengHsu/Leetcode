@@ -7,63 +7,100 @@ package String;
  * @Author: Created by xucheng.
  */
 public class LongestCommonPrefix {
-//    Horizontal scanning
+
+    /**
+     * Scanning
+     * 遍历字符串，判断第一个字符串是否存在于其他各字符串中，若存在则继续判断下一个，若不存在则第一个字符串长度减1看是否存在
+     * Time: O(n)
+     * @param strs
+     * @return
+     */
 //    public String longestCommonPrefix(String[] strs) {
-//        // indexof(): find substring in a string
-//        if (strs.length == 0) return "";
+//        if (strs.length == 0)
+//            return "";
 //        String prefix = strs[0];
 //        for (int i = 1; i < strs.length; i++) {
-//            while (strs[i].indexOf(prefix) != 0) {
-////              Every time when strs[i].indexOf(prefix) != 0, the length of prefix - 1
-//                prefix = prefix.substring(0,prefix.length()-1);
+//        // prefix不是前缀
+//            while (strs[i].indexOf(prefix) != 0)
+//            {
+//                prefix = prefix.substring(0,prefix.length() - 1);
 //                if (prefix.isEmpty()) return "";
 //            }
 //        }
 //        return prefix;
 //    }
 
-//  Vertical scanning
+    /**
+     * Divide and Conquer
+     * @param strs
+     * @return
+     */
 //    public String longestCommonPrefix(String[] strs) {
 //        if (strs == null || strs.length == 0)
 //            return "";
-//        for (int i = 0; i < strs[0].length(); i++) {
-//            char c = strs[0].charAt(i);
-//            for (int j = 1; j < strs.length; j++) {
-//                if (i == strs[j].length() || strs[j].charAt(i) != c)
-//                    return strs[0].substring(0,i);
-//            }
+//        return findLCP(strs, 0, strs.length - 1);
+//    }
+//
+//    private String findLCP(String[] strs, int l, int r) {
+//        if (l == r)
+//            return strs[l];
+//        else {
+//            int mid = (l + r) / 2;
+//            String leftLCP = findLCP(strs, l, mid);
+//            String rightLCP = findLCP(strs, mid + 1, r);
+//            return LCP (leftLCP,rightLCP);
 //        }
-//        return strs[0];
+//    }
+//
+//    private String LCP(String leftLCP, String rightLCP) {
+//        int min = Math.min(leftLCP.length(), rightLCP.length());
+//        for (int i = 0; i < min; i++) {
+//            if (leftLCP.charAt(i) != rightLCP.charAt(i))
+//                return leftLCP.substring(0,i);
+//        }
+//        return leftLCP.substring(0,min);
 //    }
 
-//    Divide and Conquer
-//    Recursion.
-//    Keep splitting strs into twp subarrays of left and right.
-//    Find the longest prefix respectively.
-//    Find the common longest one for left and right.
+
+    /**
+     * Binary Search :
+     * @param strs
+     * @return
+     */
     public String longestCommonPrefix(String[] strs) {
         if (strs == null || strs.length == 0)
             return "";
-        return findLongestCommonPrefix(strs,0,strs.length-1);
+        int minLen = Integer.MAX_VALUE;
+        // Find the minimum string length
+        for (int i = 0 ; i < strs.length; i++) {
+            minLen = Math.min(minLen, strs[i].length());
+        }
+
+        int low = 1;
+        int high = minLen;
+        while (low < high) {
+            int mid = (low + high)/ 2;
+            // if the substring of the 1st word is a common prefix of all words.
+            // then discard the left part, means to add the len of substring by 1 and repeat
+            // Because we try to find the longer common prefix
+            if (isCommomPrefix(strs,mid))
+                low = mid + 1;
+            // Discard the right part
+            else
+                high = mid - 1;
+        }
+
+        return strs[0].substring(0,(low + high)/2);
     }
 
-    private String findLongestCommonPrefix(String[] strs, int l, int r) {
-        if (l == r)
-            return strs[1];
-        else {
-            int mid = (l + r)/2;
-            String lcpLeft = findLongestCommonPrefix(strs,l, mid);
-            String lcpRight = findLongestCommonPrefix(strs, mid+1, r);
-            return commonPrefix(lcpLeft,lcpRight);
+    private boolean isCommomPrefix(String[] strs, int len) {
+        // check if the substring of the 1st word is a common prefix of all words
+        String str1 = strs[0].substring(0,len);
+        for (int i = 1; i < strs.length; i++) {
+            if (!strs[i].startsWith(str1))
+                return false;
         }
+        return true;
     }
 
-    String commonPrefix(String left, String right) {
-        int min = Math.min(left.length(), right.length());
-        for (int i = 0; i < min; i++) {
-            if ( left.charAt(i) != right.charAt(i) )
-                return left.substring(0, i);
-        }
-        return left.substring(0, min);
-    }
 }

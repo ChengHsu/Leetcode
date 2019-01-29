@@ -7,6 +7,14 @@ package Tree;
  * @Author: Created by xucheng.
  */
 public class SameTree {
+    /**
+     * 1. 判断两个节点是否为null
+     * 2. 判断两个节点的值是否相同
+     * 3. 判断两个节点的左节点是否相同，右节点是否相同
+     * @param p
+     * @param q
+     * @return
+     */
     public boolean isSameTree(TreeNode p, TreeNode q) {
         return isSame(p,q);
     }

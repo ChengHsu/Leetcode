@@ -12,7 +12,14 @@ import java.util.*;
  * @Author: Created by xucheng.
  */
 public class BinaryTreeLevelOrderTraversal {
-    // BFS using Queue
+
+
+    /**
+     * 102.
+     * BFS using Queue
+     * @param root
+     * @return
+     */
     public List<List<Integer>> levelOrder(TreeNode root) {
         List<List<Integer>> res = new ArrayList<>();
         if (root == null)
@@ -36,6 +43,12 @@ public class BinaryTreeLevelOrderTraversal {
     }
 
 
+    /**
+     * 107.
+     * BFS using Queue
+     * @param root
+     * @return
+     */
     public List<List<Integer>> levelOrderBottom(TreeNode root) {
         // Do a reverse of result list
         // the rest r Same as BinaryTreeLevelOrderTraversal
@@ -60,4 +73,5 @@ public class BinaryTreeLevelOrderTraversal {
         Collections.reverse(res);
         return res;
     }
+
 }

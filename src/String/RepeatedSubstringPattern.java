@@ -10,6 +10,7 @@ package String;
 public class RepeatedSubstringPattern {
     public boolean repeatedSubstringPattern(String s) {
         int len = s.length();
+        // the length of substring is at most s.length/2
         for (int i = len/2; i >= 1; i--) {
             if (len % i == 0) {
                 // i = len of substring

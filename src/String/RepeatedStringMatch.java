@@ -20,7 +20,6 @@ public class RepeatedStringMatch {
         StringBuilder sb = new StringBuilder(A);
         for (; sb.length() < B.length(); q++) {
             sb.append(A);
-            System.out.println(sb);
         }
         if (sb.indexOf(B) >= 0) return q;
         if (sb.append(A).indexOf(B) >= 0) return q + 1;

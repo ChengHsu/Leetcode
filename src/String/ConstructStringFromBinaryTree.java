@@ -1,5 +1,6 @@
 package String;
 
+
 /**
  * @Number: #606. Construct String from Binary Tree
  * @Descpription: You need to construct a string consists of parenthesis and integers from a binary tree with the preorder traversing way.
