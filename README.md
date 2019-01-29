@@ -41,3 +41,21 @@ LeetCode Problems' Solutions By Tag
 | `BST Convert` | [538.Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/) |
 | `BST Construction` | [606.Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/) |
 
+## String
+| Categories | Problems | Notes |
+| --- | --- |  --- |
+| `Palindrome` | [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | two pointers判断左右对应字符是否相等
+| `Palindrome` | [680. Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | tow pointers遇到左右对应字符不同的时候分别去掉左右字符判断剩下是否palindrome
+| `Palindrome` | [Is Permutation of Palindrome]() | Valid permutation can only have at most one char with odd count
+| `Unique` | [804. Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/) | HashSet eliminate duplicates
+| `Unique` | [929. Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/) | 1.replace() 2.HashSet
+| `Common` | [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | prefix: indexof()==0
+| `Common` | [Most Common Word](https://leetcode.com/problems/most-common-word/) | 1.regex 2.hashmap
+| `Common` | [Longest Uncommon Subsequence I](https://leetcode.com/problems/longest-uncommon-subsequence-i/solution/) | 根据长度和相同程度分情况
+| `Reverse` | [Reverse String](https://leetcode.com/problems/reverse-string/) | 2 pointers
+| `Reverse` | [Reverse String II](https://leetcode.com/problems/reverse-string-ii/) | 2 pointers
+| `Reverse` | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/) | 2 pointers
+| `Reverse` | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/) | 1.split() 2.reverse() 3.trim()
+| `Compression` | [String Compression](https://leetcode.com/problems/string-compression/) | 加重复次数：String.valueof().toCharArray()
+| `Repeat` | [Repeated String Match](https://leetcode.com/problems/repeated-string-match/) | Ad Hoc
+| `Repeat` | [Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/) | Ad Hoc: 约数
