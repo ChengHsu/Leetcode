@@ -14,6 +14,11 @@ public class DeleteNodeInALinkedList {
     // Replace the given node with the following node and make the next pointer of given node to point to the next
     // of next of given node. ( = make given node the next node, then delete the next node)
     // Because the given node is always a valid node instead of the tail, this method will work.
+
+    /**
+     * 将下一个node的val赋给given node，将given node指向其下下个node
+     * @param node
+     */
     public void deleteNode(ListNode node) {
         if (node == null) return;
         node.val = node.next.val;

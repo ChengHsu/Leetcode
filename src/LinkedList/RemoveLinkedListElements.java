@@ -6,18 +6,33 @@ package LinkedList;
  * @Author: Created by xucheng.
  */
 public class RemoveLinkedListElements {
+    /**
+     * tuitive solution
+     * Time: O(n)
+     * Space: O(1)
+     * @param head
+     * @param val
+     * @return
+     */
     public ListNode removeElements(ListNode head, int val) {
-        ListNode PreNode = new ListNode(0);
-        PreNode.next = head;
-        ListNode curr = PreNode;
-        while (curr.next != null) {
-            if (curr.next.val == val) {
-                curr.next = curr.next.next;
-            }
-            else {
-                curr = curr.next;
-            }
+        // edge case
+        if (head == null)
+            return null;
+
+        ListNode dummy = new ListNode(0);
+        dummy.next = head;
+        ListNode prev = dummy;
+        ListNode curr = head;
+        while (curr != null) {
+            // if it's the node to be deleted, make its prev node to its next one
+            if (curr.val == val)
+                prev.next = curr.next;
+                // if not, update the prev node
+            else
+                prev = curr;
+            // move forward curr by one anyway
+            curr = curr.next;
         }
-        return PreNode.next;
+        return dummy.next;
     }
 }
