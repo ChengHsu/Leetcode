@@ -1,5 +1,5 @@
 
-* Java create custom comparator to sort special data structure
+* Java create customize comparator to sort special data structure
 ```
  private class IntervalComparator implements Comparator<Interval> {
         @Override
