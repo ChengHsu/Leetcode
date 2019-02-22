@@ -1,5 +1,6 @@
 
-* Java create customize comparator to sort special data structure
+* Java create customize comparator to sort special data structure 
+ > from LC56. Merge Intervals
 ```
  private class IntervalComparator implements Comparator<Interval> {
         @Override
