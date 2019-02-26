@@ -12,7 +12,7 @@
 ```
 
 * Modulo 10^9+7 (1_000_000_007)
-  > from LC923. 3Sum With Multiplicity
+> from LC923. 3Sum With Multiplicity
   - In most of the programming competitions, problems are required to answer the result in 10^9+7 modulo. The reason behind this is to have problems for large integers so that only efficient algorithms can solve them in allowed limited time.
   ```
   int MOD = 1_000_000_007;
