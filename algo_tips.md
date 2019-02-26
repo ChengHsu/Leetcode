@@ -53,6 +53,7 @@ Any comparison sort algorithm requires Ω(n lgn) comparisons in the worst case.
 // B: output array after sorting
 // k: integer k >= each elements in A
 // C: auxiliary array that stores the ranking for each element at last
+
 COUNTING-SORT(A,B,k):
 let C[0..k] be a new array
 for i = 0 to k:
