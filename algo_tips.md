@@ -47,6 +47,7 @@ Any comparison sort algorithm requires Ω(n lgn) comparisons in the worst case.
 1. Counting sort assumes that each of the *n* input elements is an integer in the range 0 to k, for some integer k.
 2. Instead of comparison, Counting sort determines, for each input element *x*, the number of elements less than *x*. It uses this info to place element *x* directly into its position in the output array.
 3. Running Time analysis: Θ(n)
+4. Counting sort is **stable**
 
 ```
 // A: input array to be sorted
@@ -71,3 +72,13 @@ for j = A.len downto 1:
 // Decrementing causes the next input element with the value equal to A[j], if one exists, to go to the position immediately // before A[j] in B.
   C[A[j]] -= 1
 ```
+#### Radix sort
+1. Running time: Given n d-digit numbers in which each digit can take on up to *k* possible values, RADIX-SORT correctly sorts these numbers in **Θ(d(n+k))** if the stable sort it uses takes Θ(n+k) time.
+```
+// Assumes that each element in the n-element array A has d digits, where digit 1 is the lowest-order digit and digit d is the // highest-order digit.
+
+RADIX-SORT(A,d):
+for i = 1 to d:
+  use a stable sort(e.g. counting sort) to sort array A on digit i
+```
+
