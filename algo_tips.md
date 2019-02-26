@@ -1,5 +1,39 @@
 ## Sorting Algorithms
 ### Comparison Sorting
+#### Merge sort
+```
+MERGE-SORT(A,p,r):
+if p < r
+  q = floor((p+r)/2)
+  MERGE-SORT(A,p,q)
+  MERGE-SORT(A,q+1,r)
+  MERGE(A,p,q,r)
+
+MERGE(A,p,q,r):
+n1 = q-p+1
+n2 = r-q
+let L[1...n1+1] and R[1...n2+1] be new arrays
+for i = 1 to n1
+  L[i] = A[p+i-1]
+for j = 1 to n2
+  R[j] = A[q+j]
+L[n1+1] = infinte
+L[n2+1] = infinte
+i = 1
+j = 1
+for k = p to r
+  if L[i] <= R[j]
+    A[k] = L[i]
+    i = i + 1
+  else A[k] = R[j]
+    j = j + 1
+```
+1. Divide & Conqer
+2. Running time: Θ(n lgn)
+  - Divide: Computes the middle of subarray, Θ(1)
+  - Conquer: Recursively solve 2 subproblems, each of size n/2, which contributes 2T(n/2) to the running time
+  - Combine: merge on an n-element subarray, Θ(n)
+  
 #### Heapsort
 1. Running time: **O(n lg n)**
 2. Sorts **in-place**
@@ -81,4 +115,3 @@ RADIX-SORT(A,d):
 for i = 1 to d:
   use a stable sort(e.g. counting sort) to sort array A on digit i
 ```
-
