@@ -29,10 +29,11 @@ for k = p to r
     j = j + 1
 ```
 1. Divide & Conqer
-2. Running time: Θ(n lgn)
+2. Running time: 
   - Divide: Computes the middle of subarray, Θ(1)
   - Conquer: Recursively solve 2 subproblems, each of size n/2, which contributes 2T(n/2) to the running time
   - Combine: merge on an n-element subarray, Θ(n)
+  - Θ(n lgn) in total
   
 #### Heapsort
 1. Running time: **O(n lg n)**
