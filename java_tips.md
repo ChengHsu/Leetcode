@@ -11,5 +11,5 @@
  Collections.sort(intervals, new IntervalComparator());   
 ```
 
-* Modulo 10^9+7 (1_000_000_007)
+##### Modulo 10^9+7 (1_000_000_007)
 In most of the programming competitions, problems are required to answer the result in 10^9+7 modulo. The reason behind this is to have problems for large integers so that only efficient algorithms can solve them in allowed limited time.
