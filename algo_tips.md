@@ -115,3 +115,19 @@ RADIX-SORT(A,d):
 for i = 1 to d:
   use a stable sort(e.g. counting sort) to sort array A on digit i
 ```
+#### Bucket sort
+1. Bucket sort assumes that the input is drawn from a uniform distribution. To produce the output, we simply sort the numbers in each bucket and then go through the buckets in order, listing the elements in each.
+2. Running time: Θ(n) for average case
+```
+BUCKET_SORT(A)
+let B[0..n-1] be a new array
+n = A.len
+for i = 0 to n-1:
+  make B[i] an empty list
+for i = 1 to n
+  insert A[i] into list B[floor(n A[i])]
+for i = 0 to n-1
+  sort list B[i] with insetion sort
+concatenate the lists B[0],B[1],...,B[n-1] together in order
+```
+3. Consider A[i] and A[j], either A[i] goes into the same bucket as A[j] or it goes into a bucket with a lower index. If A[i] and A[j] go into the same bucket, then the insertion sort puts them into the same order. Otherwise, they will be ordered in the last step when concatenating each bucket. Therefore this algo works.
