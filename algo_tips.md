@@ -131,3 +131,15 @@ for i = 0 to n-1
 concatenate the lists B[0],B[1],...,B[n-1] together in order
 ```
 3. Consider A[i] and A[j], either A[i] goes into the same bucket as A[j] or it goes into a bucket with a lower index. If A[i] and A[j] go into the same bucket, then the insertion sort puts them into the same order. Otherwise, they will be ordered in the last step when concatenating each bucket. Therefore this algo works.
+
+
+### Running Time Table
+Algorithm | Worst-case running time | Average-case/expected running time
+------------ | ------------- | ------------
+Insertion Sort | Θ(n^2) | Θ(n^2)
+Merge Sort | Θ(nlgn) | Θ(nlgn)
+Heapsort | Θ(nlgn) | -
+Quicksort | Θ(n^2) | Θ(nlgn) (expected)
+Counting sort | Θ(k+n) | Θ(k+n)
+Radix Sort | Θ(d(k+n)) | Θ(d(k+n))
+Bucket Sort | Θ(n^2) | Θ(n) (average-case)
