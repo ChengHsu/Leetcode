@@ -29,3 +29,8 @@ int[] arr = new int[]{val1,val2};
 // return empty array
 return new int[]{};
 ```
+
+* remove the leading whitespaces and tailing whitespaces of a string
+```
+str = str.trim();
+```
