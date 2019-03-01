@@ -19,3 +19,13 @@
   ```
   In most of the programming competitions, problems are required to answer the result in 10^9+7 modulo. The reason behind this is to have problems for large integers so that only efficient algorithms can solve them in allowed limited time.
 
+* Initialize primitive type array
+> from LC1. Two Sum
+```
+// allocate space
+int[] arr = new int[arr.len];
+// initialize with values
+int[] arr = new int[]{val1,val2};
+// return empty array
+return new int[]{};
+```
