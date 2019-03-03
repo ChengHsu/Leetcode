@@ -34,3 +34,42 @@ return new int[]{};
 ```
 str = str.trim();
 ```
+
+* LinkedHashmap: a HashMap with an additional feature of maintaining an order of elements inserted into it.
+> from LC12. Integer to Roman
+
+* backtrack notes:
+ * if use StringBuilder instead of String to store the dynamic string during recursion, one has to clean the StringBuilder or use a new one when doing backtack
+ * add List<List<Integer>>
+ ```
+  res.add(Arrays.asList(val1, val2, val3);
+ ```
+ 
+* division related problems, consider:
+  * sign +,-
+   * sign checking
+   ```
+   // method 1:
+   int sign = 1;
+   if((dividend < 0 || divisor > 0) || (dividend > 0 || divisor < 0))
+   sign = -1;
+   return sign * quotient;
+   // method 2:
+   boolean isNegative = (dividend < 0 || divisor > 0) || (dividend > 0 || divisor < 0);
+   return isNegative? -result : result;
+   ```
+  * overflow
+  ```
+   if (dividend == Integer.MIN_VALUE && divisor == -1)
+      return Integer.MAX_VALUE;
+  ```
+  * dividend == 0, divisor == 0, quotient == 0
+  ```
+  if (divisor == 0)
+     return dividend >= 0 ? Integer.MAX_VALUE : Integer.MIN_VALUE;
+  if (dividend == 0)
+     return 0;
+  ```
+> from LC29. Divide Two Integers
+  
+  
