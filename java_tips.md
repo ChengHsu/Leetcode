@@ -46,6 +46,7 @@ str = str.trim();
  ```
  
 * division related problems, consider:
+> from LC29. Divide Two Integers
   * sign +,-
    * sign checking
    ```
@@ -70,6 +71,6 @@ str = str.trim();
   if (dividend == 0)
      return 0;
   ```
-> from LC29. Divide Two Integers
+
   
   
