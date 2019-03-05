@@ -37,14 +37,14 @@ return n;
 ```
 ## Duplicate Calulation in Recursion
 * Fibonacci Number
- * duplicate calculations: fib(4) = fib(3) + fib(2) = fib(2) + fib(1) + fib(1) + fib(0)
- * stupid codes:
+  * duplicate calculations: fib(4) = fib(3) + fib(2) = fib(2) + fib(1) + fib(1) + fib(0)
+  * stupid codes:
   ```
   public static int fibonacci(int n) {
-  if(n < 2)
-    return n;
+    if(n < 2)
+      return n;
 
-  return fibonacci(n-1) + (n-2);
+    return fibonacci(n-1) + (n-2);
   }
   ```
   * Reduce time in exchange for additional space:
