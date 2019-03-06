@@ -35,7 +35,7 @@ n.next = head;
 return n;
 }
 ```
-## Duplicate Calulation in Recursion
+## Duplicate Calulation in Recursion - Using Memoization
 * Fibonacci Number
   * duplicate calculations: fib(4) = fib(3) + fib(2) = fib(2) + fib(1) + fib(1) + fib(0)
   * stupid codes:
@@ -95,5 +95,64 @@ return n;
     return memo[step];
   }
   ```
+  
+## Time Complexity - Recursion
+> Given a recursion algorithm, its time complexity O(T) is typically the product of **the number of recursion invocations**(R) and **the time complexity of calculation**(O(s)) that incurs along with rach recursion call:    
+O(T) = R * O(s)
+* For Fibonacci Example
+  * Without memoization, time complexity is O(2^n) (According to the number of nodes of the execution tree)
+  * With memoization, time complexity is O(n) (fib(n) would only be invoked n-1 times)
+
+## Space Complexity - Recursion
+* Recursion Related Sapce
+  * refers to the memory cost that is incurred directly by the recursion, i.e. the stack to keeo track of recursion function calls.
+  *  In order to complete a typical function call, the system should allocate some space in the stack to hold 3 important pieces of information:
+    1. the returning address of the function call. Once the function call is completed, the program should know where to return to, i.e. the point before the function call; 
+    2. the parameters that are passed to the function call; 
+    3. the local variables within the function call.
+  * The space in the stack is the minimal cost that is incurred during a function call. Once the function call is done, the space will be freed. However, for recursion algorithms, since the function calls would chain up successively until they reach a base case, wihch means that the space used for each function call will also accumulate.
+  * **For a recursion algo, if thers is no other memory consumption, then this recursion incurred space would be the upper bound of the algo.**
+
+* Non-Recursion Related Space
+  * refers to the memory space that is not directly related to recursion, which typically includes the space (normally in heap) that is allocated for the global variables or for storing intermediate results(memoization).
+
+## Tail recursion
+* Tail recursion is a recursion where the **recursive call is the final instruction** in the recursion function. And there should be only one recursive call in the function. It's exempted from recursion related sapce.
+* In tail recursion, we know that as soon as we return from the recursive call we are going to immediately return as well, so we can skip the entire chain of recursive calls returning and return straight to the original caller. That means we don't need a call stack at all for all of the recursive calls, which saves us space.
+```
+ // Sum
+ private static int helper_non_tail_recursion(int start, int [] ls) {
+    if (start >= ls.length) {
+      return 0;
+    }
+    // not a tail recursion because it does some computation after the recursive call returned.
+    return ls[start] + helper_non_tail_recursion(start+1, ls);
+  }
+
+  public static int sum_non_tail_recursion(int [] ls) {
+    if (ls == null || ls.length == 0) {
+      return 0;
+    }
+    return helper_non_tail_recursion(0, ls);
+  }
+
+  //---------------------------------------------
+
+  private static int helper_tail_recursion(int start, int [] ls, int acc) {
+    if (start >= ls.length) {
+      return acc;
+    }
+    // this is a tail recursion because the final instruction is the recursive call.
+    return helper_tail_recursion(start+1, ls, acc+ls[start]);
+  }
+    
+  public static int sum_tail_recursion(int [] ls) {
+    if (ls == null || ls.length == 0) {
+      return 0;
+    }
+    return helper_tail_recursion(0, ls, 0);
+  }
+```
+
 
 
