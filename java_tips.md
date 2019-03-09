@@ -72,5 +72,29 @@ str = str.trim();
      return 0;
   ```
 
+#### Generate combination C(L,N) (select N numbers from L numbers)
+> from LC39. Combination Sum | LC40. Combination Sum II
+Template:
+```
+// time: O(n^2)
+// space: O()
+C(nums, d, N, start, curr, ans):
+ if d == N:
+  ans.append(curr)
+  return
+
+ for i = s to L:
+  curr.push(nums[i])
+  C(nums, d+1, N, i+1, curr, ans)
+  curr.pop()
+```
+#### 两整数乘积的位数
+两整数(位数分别为m,n)乘积的位数最多为m+n位
+> from LC43. Multiply Strings
+```
+int lenNum1 = num1.length();
+int lenNum2 = num2.length();
+int[] product = new int[lenNum1 + lenNum2];
+```
   
   
