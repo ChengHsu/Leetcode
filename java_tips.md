@@ -96,5 +96,16 @@ int lenNum1 = num1.length();
 int lenNum2 = num2.length();
 int[] product = new int[lenNum1 + lenNum2];
 ```
+
+#### Java中String s,t比较大小
+```
+int minLen = Math.min(s.length(),t.length());
+for(int i = 0; i < minLen; i++){
+if(s.charAt(i) != t.charAt(i))
+  # 比较s.charAt(i)和t.charAt(i)的ascii大小,直接return比较结果
+}
+# for loop结束并没有不同的字符
+return s.length() - t.length();
+```
   
   
