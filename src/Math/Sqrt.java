@@ -36,7 +36,7 @@ public class Sqrt {
             return x;
 
        int l = 1;
-       int r = x;
+       int r = x / 2;
        while (l <= r) {
            int m = ( l + r) / 2;
            // 当前 m^2 > x, discard the right half

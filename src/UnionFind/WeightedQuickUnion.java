@@ -5,7 +5,9 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 /**
- * @Descpription: Modify quick-union to avoid tall trees.
+ * @Descpription:
+ * https://www.cs.princeton.edu/~rs/AlgsDS07/01UnionFind.pdf
+ * Modify quick-union to avoid tall trees.
  * Keep track of size of each component.
  * Balance by linking small tree below large one.
  * @Author: Created by xucheng.
@@ -21,7 +23,7 @@ public class WeightedQuickUnion {
         parent = new int[n];
         size = new int[n];
         for (int i = 0; i < n; i++) {
-            parent[i] = i;
+            parent[i] = i;  // initialize the parent of each node to itself
             size[i] = 1;
         }
     }
@@ -40,10 +42,11 @@ public class WeightedQuickUnion {
      */
     public int find(int p) {
         while (p != parent[p]) {
-            parent[p] = parent[parent[p]]; // path compression: set parent of p to it grandparent.
+            // path compression: set parent of p to its grandparent.
+            // eventually every examined node on the way of finding root of p will be connected to the root of p
+            parent[p] = parent[parent[p]];
             p = parent[p];
         }
-
         return p;
     }
 
@@ -66,9 +69,10 @@ public class WeightedQuickUnion {
     public void union(int p, int q) {
         int rootP = find(p);
         int rootQ = find(q);
+        // connected already
         if (rootP == rootQ) return;
 
-        // make smaller root point to larger one
+        // link smaller tree below larger tree
         if (size[rootP] < size[rootQ]) {
             parent[rootP] = rootQ;
             size[rootQ] += size[rootP];

@@ -14,57 +14,38 @@ package Math;
  */
 public class DivideTwoIntegers {
     /**
-     * https://www.youtube.com/watch?v=2bNV08KroqQ
-     * Several cases needs to be considered:
-     * 1. + - : int sign
-     * 2. Overflow : use long
-     * 3.  = 0
-     *
-     * Time: O(lgn)
-     * Space: O(lgn)
-     * @param dividend
-     * @param divisor
-     * @return
+     * bit operation
+     * https://www.jiuzhang.com/solution/divide-two-integers/
+     * basic idea: 利用减法, 看看被除数可以减去多少次除数.
+     * optimize: 使用倍增的思想优化, 可以将减法的次数优化到对数时间复杂度.将除数左移一位(或者让它加上自己), 即得到了二倍的除数, 这时一次减法相当于减去了2个除数. 不断倍增
+     * 与此同时还需要一个变量记录此时的除数是最初的除数的多少倍, 每次减法后都加到结果上即可.
+     * time: O(log n)
      */
     public int divide(int dividend, int divisor) {
-        //Reduce the problem to positive long integer to make it easier.
-        //Use long to avoid integer overflow cases.
 
-        // case 1
-        int sign = 1;
-        if ((dividend > 0 && divisor < 0) || (dividend < 0 && divisor > 0))
-            sign = -1;
+        if (divisor == 0)
+            return dividend >= 0 ? Integer.MAX_VALUE : Integer.MIN_VALUE;
 
-        // case 2
-        long ldividend = Math.abs((long)dividend);
+        if (dividend == 0)
+            return 0;
+
+        if (dividend == Integer.MIN_VALUE && divisor == -1)
+            return Integer.MAX_VALUE;
+
+        boolean isNegative = (dividend < 0 && divisor > 0) || (dividend > 0 && divisor < 0);
+
+        long ldividend = Math.abs((long) dividend);
         long ldivisor = Math.abs((long) divisor);
 
-        // case 3
-        if (ldivisor == 0) return Integer.MAX_VALUE;
-        if (ldividend == 0 || ldividend < ldivisor) return 0;
-
-        long lans = ldivide(ldividend,ldivisor);
-
-        if (lans > Integer.MAX_VALUE)
-            return sign == 1 ? Integer.MAX_VALUE: Integer.MIN_VALUE;
-        else return (int) (sign * lans);
-
-    }
-
-    private long ldivide(long ldividend, long ldivisor) {
-        // Recursion exit condition
-        if (ldividend < ldivisor) return 0;
-        long sum = ldivisor;
-        long multiple = 1;
-        //  Find the largest multiple so that (divisor * multiple <= dividend),
-        //  whereas we are moving with stride 1, 2, 4, 8, 16...2^n for performance reason.
-        //  Think this as a binary search.
-        // if((sum + sum) < ldividend） Space: O(lgn)
-        // if((sum + sum) <= ldividend) Space: < O(lgn)
-        while ((sum + sum) <= ldividend) {
-            sum += sum;
-            multiple += multiple;
+        int result = 0;
+        while (ldividend >= ldivisor) {
+            int shift = 0;
+            while (ldividend >= (ldivisor << shift)) {
+                shift++;
+            }
+            ldividend -= ldivisor << (shift - 1);
+            result += 1 << (shift - 1);
         }
-        return multiple + ldivide(ldividend - sum, ldivisor);
+        return isNegative ? -result : result;
     }
 }

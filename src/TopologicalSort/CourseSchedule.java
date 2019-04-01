@@ -1,0 +1,159 @@
+package TopologicalSort;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+/**
+ * @Number:
+ * #207. Course Schedule
+ * @Descpription: There are a total of n courses you have to take, labeled from 0 to n-1.
+ * Some courses may have prerequisites, for example to take course 0 you have to first take course 1,
+ * which is expressed as a pair: [0,1]
+ * Given the total number of courses and a list of prerequisite pairs, is it possible for you to finish all courses?
+ * 210. Course Schedule II
+ * Given the total number of courses and a list of prerequisite pairs,
+ * return the ordering of courses you should take to finish all courses.
+ * @Author: Created by xucheng.
+ */
+public class CourseSchedule {
+    /**
+     * topological sort: 判断一个directed graph是否存在闭环
+     */
+    static int WHITE = 1;
+    static int GRAY = 2;
+    static int BLACK = 3;
+
+    boolean isPossible;
+    Map<Integer, Integer> color;
+    Map<Integer, List<Integer>> adjList;
+
+    private void init(int numCourses) {
+        this.isPossible = true;
+        this.color = new HashMap<>();
+        this.adjList = new HashMap<>();
+
+        for (int i = 0; i < numCourses; i++)
+            this.color.put(i,WHITE);
+    }
+
+    private void dfs(int node) {
+        if (!this.isPossible)
+            return;
+
+        this.color.put(node, GRAY);
+        for (Integer neighbor: this.adjList.getOrDefault(node, new ArrayList<>())) {
+            if (this.color.get(neighbor) == WHITE)
+                this.dfs(neighbor);
+            else if (this.color.get(neighbor) == GRAY)
+                this.isPossible = false;
+        }
+        this.color.put(node, BLACK);
+
+    }
+
+    public boolean canFinish(int numCourses, int[][] prerequisites) {
+        this.init(numCourses);
+
+        for (int i =0 ; i < prerequisites.length; i++) {
+            int dest = prerequisites[i][0];
+            int src = prerequisites[i][1];
+            List<Integer> lst = adjList.getOrDefault(src, new ArrayList<>());
+            lst.add(dest);
+            adjList.put(src,lst);
+        }
+
+        for (int i =0 ; i < numCourses; i++) {
+            if (this.color.get(i) == WHITE)
+                dfs(i);
+        }
+        return this.isPossible;
+    }
+
+
+    /**
+     * dfs: Hierholzer algorithm
+     * @param numCourses
+     * @param prerequisites
+     * @return
+     */
+//    static int WHITE = 1;
+//    static int GRAY = 2;
+//    static int BLACK = 3;
+//
+//    boolean isPossible;
+//    Map<Integer, Integer> color;
+//    Map<Integer, List<Integer>> adjList;
+//    List<Integer> topologicalOrder;
+//
+//    private void init(int numCourses) {
+//        this.isPossible = true;
+//        this.color = new HashMap<Integer, Integer>();
+//        this.adjList = new HashMap<Integer, List<Integer>>();
+//        this.topologicalOrder = new ArrayList<Integer>();
+//
+//        // By default all vertces are WHITE
+//        for (int i = 0; i < numCourses; i++) {
+//            this.color.put(i, WHITE);
+//        }
+//    }
+//
+//    private void dfs(int node) {
+//
+//        // Don't recurse further if we found a cycle already
+//        if (!this.isPossible) {
+//            return;
+//        }
+//
+//        // Start the recursion
+//        this.color.put(node, GRAY);
+//
+//        // Traverse on neighboring vertices
+//        for (Integer neighbor : this.adjList.getOrDefault(node, new ArrayList<Integer>())) {
+//            if (this.color.get(neighbor) == WHITE) {
+//                this.dfs(neighbor);
+//            } else if (this.color.get(neighbor) == GRAY) {
+//                // An edge to a GRAY vertex represents a cycle
+//                this.isPossible = false;
+//            }
+//        }
+//
+//        // Recursion ends. We mark it as black
+//        this.color.put(node, BLACK);
+//        this.topologicalOrder.add(node);
+//    }
+//
+//    public int[] findOrder(int numCourses, int[][] prerequisites) {
+//
+//        this.init(numCourses);
+//
+//        // Create the adjacency list representation of the graph
+//        for (int i = 0; i < prerequisites.length; i++) {
+//            int dest = prerequisites[i][0];
+//            int src = prerequisites[i][1];
+//            List<Integer> lst = adjList.getOrDefault(src, new ArrayList<Integer>());
+//            lst.add(dest);
+//            adjList.put(src, lst);
+//        }
+//
+//        // If the node is unprocessed, then call dfs on it.
+//        for (int i = 0; i < numCourses; i++) {
+//            if (this.color.get(i) == WHITE) {
+//                this.dfs(i);
+//            }
+//        }
+//
+//        int[] order;
+//        if (this.isPossible) {
+//            order = new int[numCourses];
+//            for (int i = 0; i < numCourses; i++) {
+//                order[i] = this.topologicalOrder.get(numCourses - i - 1);
+//            }
+//        } else {
+//            order = new int[0];
+//        }
+//
+//        return order;
+//    }
+}

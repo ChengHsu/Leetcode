@@ -22,33 +22,30 @@ public class MinStack {
         }
     }
 
-
-    Stack<Node> s = null;
-    /** initialize your data structure here. */
+    Stack<Node> stack;
     public MinStack() {
-        s = new Stack<>();
+        stack = new Stack<>();
     }
 
+    // compare min with x to update min and store it to the peek node
     public void push(int x) {
-        int min=0;
-        if(s.isEmpty())  min = x;
-        else  {
-            min = s.peek().min>x?x:s.peek().min;
-        }
-        s.push(new Node(x,min));
+        int min = 0;
+
+        if (stack.isEmpty()) min = x;
+        else
+            min = Math.min(stack.peek().min, x);
+        stack.push(new Node(x, min));
     }
 
     public void pop() {
-        s.pop();
-
+        stack.pop();
     }
 
     public int top() {
-        return s.peek().val;
-
+        return stack.peek().val;
     }
 
     public int getMin() {
-        return s.peek().min;
+        return stack.peek().min;
     }
 }

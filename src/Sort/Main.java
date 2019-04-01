@@ -7,7 +7,12 @@ package Sort;
  */
 public class Main {
     public static void main(String[] args) {
-        ValidAnagram validAnagram = new ValidAnagram();
-        System.out.println(validAnagram.isAnagram("rat","car"));
+        int[] nums = {5,23,11,89,77,98,4,28,65,43};
+//       MergeSort mergeSort = new MergeSort();
+//       mergeSort.mergesort(nums);
+        QuickSort quickSort = new QuickSort();
+        quickSort.quicksort(nums);
+       for (int n: nums)
+           System.out.print(n + " ");
     }
 }

@@ -14,23 +14,29 @@ import java.util.Queue;
  */
 
 public class MyStack {
-
     private Queue<Integer> queue1;
     private Queue<Integer> queue2;
     private int top;
 
     public MyStack() {
-       queue1 = new LinkedList<>();
-       queue2 = new LinkedList<>();
+        queue1 = new LinkedList<>();
+        queue2 = new LinkedList<>();
     }
-
     /** Push element x onto stack. */
     public void push(int x) {
         queue1.add(x);
         top = x;
     }
 
-    /** Removes the element on top of the stack and returns that element. */
+    /**
+     * We need to remove the element from the top of the stack. This is the last inserted element in q1
+     * Because queue is FIFO (first in - first out) data structure, the last inserted element could be removed only after all elements, except it, have been removed.
+     * For this reason we need to maintain additional queue q2, which will serve as a temporary storage to enqueue the removed elements from q1.
+     * The last inserted element in q2 is kept as top. Then the algorithm removes the last element in q1
+     * We swap q1 with q2 to avoid copying all elements from q2 to q1.
+     * time: O(n)
+     * @return
+     */
     public int pop() {
         while (queue1.size() > 1) {
             top = queue1.remove();
@@ -44,10 +50,9 @@ public class MyStack {
     }
 
     /** Get the top element. */
-    public int top() {
+    public int top(){
         return top;
     }
-
     /** Returns whether the stack is empty. */
     public boolean empty() {
         return queue1.isEmpty();
