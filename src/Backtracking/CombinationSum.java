@@ -29,7 +29,11 @@ public class CombinationSum {
 
     /**
      * 39
-     *
+     * can use repeated number: start = i
+     * consider to eliminate same sequence but in different order :
+     *  2 2 3
+     *  2 3 2
+     *  3 2 2
      * @param candidates
      * @param target
      * @return
@@ -62,7 +66,8 @@ public class CombinationSum {
 
     /**
      * 40
-     *
+     * can't use repeated number : start = i + 1
+     * has duplicates in given array:   if (i > start && candidates[i] == candidates[i - 1]) continue;
      * @param candidates
      * @param target
      * @return
@@ -95,6 +100,8 @@ public class CombinationSum {
 
     /**
      * 216
+     * combination of k numbers: comb.size() == k && target == 0
+     * can't use repeated numbers: start = i + 1
      * @param k
      * @param n
      * @return
@@ -171,6 +178,7 @@ public class CombinationSum {
                 res += helper(nums, target - nums[i]);
             }
         }
+        // store the # of combinations when target == target for later use
         dp[target] = res;
         return res;
     }

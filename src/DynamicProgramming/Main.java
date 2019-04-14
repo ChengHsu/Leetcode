@@ -7,6 +7,13 @@ package DynamicProgramming;
  */
 public class Main {
     public static void main(String[] args) {
-        System.out.println(AllPathsFromTopLeftToBottomRightOf2DArray.numberOfWays_recursive(5,5));
+//        LCS lcs = new LCS();
+//        String s = "XMJYAUZ";
+//        String t = "MZJAWXU";
+//        System.out.println(lcs.LCS(s,t));
+
+//        ClimbingStairs climbingStairs = new ClimbingStairs();
+//        System.out.println(climbingStairs.climbStairs(3));
+        System.out.println(UniquePaths.numberOfWays_recursive(5,4));
     }
 }

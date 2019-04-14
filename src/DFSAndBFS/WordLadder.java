@@ -3,9 +3,14 @@ package DFSAndBFS;
 import java.util.*;
 
 /**
- * @Number: #127. Word Ladder
+ * @Number: #127. Word Ladder && 126. Word Ladder II
  * @Descpription: Given two words (beginWord and endWord), and a dictionary's word list,
- * find the length of shortest transformation sequence from beginWord to endWord, such that:
+ * 127
+ * find the length of shortest transformation sequence from beginWord to endWord
+ * 126.
+ * find all shortest transformation sequence(s)
+ *
+ * such that:
  * Only one letter can be changed at a time.
  * Each transformed word must exist in the word list. Note that beginWord is not a transformed word.
  * Return 0 if there is no such transformation sequence.
@@ -118,11 +123,58 @@ public class WordLadder {
                         dict.remove(t);
                         q.offer(t);
                     }
-                    // recover
+                    // backtrack
                     chs[i] = ch;
                 }
             }
         }
         return 0;
     }
+
+
+    /**
+     * 126
+     * @param beginWord
+     * @param endWord
+     * @param wordList
+     * @return
+     */
+    public List<List<String>> findLadders(String beginWord, String endWord, List<String> wordList) {
+        List<List<String>> res = new ArrayList<>();
+        if (wordList == null || wordList.size() == 0 || beginWord == null || endWord == null || !wordList.contains(endWord))
+            return res;
+
+        Set<String> dict = new HashSet<>();
+        for (String word: wordList)
+            dict.add(word);
+
+        Queue<String> queue = new LinkedList<>();
+        queue.add(beginWord);
+
+        while (!queue.isEmpty()) {
+            int size = queue.size();
+            List<String> transSeq = new ArrayList<>();
+            for (int i = 0; i < size; i++) {
+                String word = queue.poll();
+                transSeq.add(word);
+//                if (word.equals(endWord)
+                char[] wordChars = word.toCharArray();
+                for (int j = 0; j < wordChars.length; j++) {
+                    char ch = wordChars[j];
+                    for (char c = 'a'; c <= 'z'; c++) {
+                        if (ch == c) continue;
+                        wordChars[j] = c;
+                        String tempStr = new String(wordChars);
+                        if (!dict.contains(tempStr)) continue;
+                        queue.offer(tempStr);
+
+                    }
+                    wordChars[j] = ch;
+                }
+            }
+        }
+        return res;
+    }
+
+
 }

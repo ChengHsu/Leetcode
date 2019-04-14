@@ -1,10 +1,5 @@
 package InterviewPrep;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Scanner;
-
 public class Main {
     // 0abcdefgh1abcdefgh
     // 1abcdefgh0abcdefgh
@@ -126,7 +121,7 @@ public class Main {
 //    }
 
     public static void main(String[] args) {
-       MicrosoftSuzhou_SDE_Intern m = new MicrosoftSuzhou_SDE_Intern();
+       MicrosoftSuzhou m = new MicrosoftSuzhou();
 //       int[] nums = new int[]{3,4,7,2,-3,1,4,2};
 //        int[] nums = new int[]{7};
 //        System.out.println(m.maxSubarraySumWithK(nums, 7));
