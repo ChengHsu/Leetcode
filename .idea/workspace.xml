@@ -5,31 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="568117d6-3877-4c5c-87ca-bc6a35a28b9e" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/InterviewPrep/MSSuzhou/LCAWithParent.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/InterviewPrep/WePay/EvaluateReversePolishNotation.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/InterviewPrep/WePay/MaximumProductSubarray.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/InterviewPrep/WePay/MaximumSubarray.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/InterviewPrep/WePay/ReverseWordsInAString.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/InterviewPrep/WePay/StringCompression.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/InterviewPrep/WePay/TextJustification.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/InterviewPrep/WePay/ValidNumber.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/InterviewPrep/WePay/ValidSudoku.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/InterviewPrep/WePay/ValidTriangle.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeTest/InterviewPrep/MSSuzhou/Cluster$Point.class" afterPath="$PROJECT_DIR$/out/production/LeetcodeTest/InterviewPrep/MSSuzhou/Cluster$Point.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeTest/InterviewPrep/MSSuzhou/Cluster.class" afterPath="$PROJECT_DIR$/out/production/LeetcodeTest/InterviewPrep/MSSuzhou/Cluster.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeTest/InterviewPrep/MSSuzhou/MyHashMap$Entry.class" afterPath="$PROJECT_DIR$/out/production/LeetcodeTest/InterviewPrep/MSSuzhou/MyHashMap$Entry.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeTest/InterviewPrep/MSSuzhou/MyHashMap.class" afterPath="$PROJECT_DIR$/out/production/LeetcodeTest/InterviewPrep/MSSuzhou/MyHashMap.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeTest/InterviewPrep/MicrosoftSuzhou$LargestNumberComparator.class" afterPath="$PROJECT_DIR$/out/production/LeetcodeTest/InterviewPrep/MicrosoftSuzhou$LargestNumberComparator.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeTest/InterviewPrep/MicrosoftSuzhou$MinStack$Node.class" afterPath="$PROJECT_DIR$/out/production/LeetcodeTest/InterviewPrep/MicrosoftSuzhou$MinStack$Node.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeTest/InterviewPrep/MicrosoftSuzhou$MinStack.class" afterPath="$PROJECT_DIR$/out/production/LeetcodeTest/InterviewPrep/MicrosoftSuzhou$MinStack.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeTest/InterviewPrep/MicrosoftSuzhou.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeTest/InterviewPrep/WePay/Main.class" afterPath="$PROJECT_DIR$/out/production/LeetcodeTest/InterviewPrep/WePay/Main.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeTest/test/Main.class" afterPath="$PROJECT_DIR$/out/production/LeetcodeTest/test/Main.class" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewPrep/MSSuzhou/Cluster.java" afterPath="$PROJECT_DIR$/src/InterviewPrep/MSSuzhou/Cluster.java" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewPrep/MicrosoftSuzhou.java" afterPath="$PROJECT_DIR$/src/InterviewPrep/MicrosoftSuzhou.java" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewPrep/WePay/Main.java" afterPath="$PROJECT_DIR$/src/InterviewPrep/WePay/Main.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/Main.java" afterPath="$PROJECT_DIR$/src/test/Main.java" />
+      <change beforePath="$PROJECT_DIR$/src/InterviewPrep/WePay/ReverseWordsInAString.java" afterPath="$PROJECT_DIR$/src/InterviewPrep/WePay/ReverseWordsInAString.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,7 +17,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/InterviewPrep/WePay/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="664">
@@ -53,11 +29,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReverseWordsInAString.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ValidSudoku.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/InterviewPrep/WePay/ValidSudoku.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="675">
+              <caret line="45" column="18" lean-forward="true" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ValidTriangle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/InterviewPrep/WePay/ValidTriangle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StringCompression.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/InterviewPrep/WePay/StringCompression.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="332">
+              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReverseWordsInAString.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/InterviewPrep/WePay/ReverseWordsInAString.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="6" lean-forward="true" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+            <state relative-caret-position="37">
+              <caret line="41" column="28" lean-forward="false" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -166,8 +172,8 @@
         <option value="$PROJECT_DIR$/src/InterviewPrep/WePay/ValidNumber.java" />
         <option value="$PROJECT_DIR$/src/InterviewPrep/WePay/EvaluateReversePolishNotation.java" />
         <option value="$PROJECT_DIR$/src/InterviewPrep/WePay/MaximumProductSubarray.java" />
-        <option value="$PROJECT_DIR$/src/InterviewPrep/WePay/ReverseWordsInAString.java" />
         <option value="$PROJECT_DIR$/src/InterviewPrep/WePay/Main.java" />
+        <option value="$PROJECT_DIR$/src/InterviewPrep/WePay/ReverseWordsInAString.java" />
       </list>
     </option>
   </component>
@@ -734,15 +740,16 @@
       <workItem from="1556040645750" duration="15709000" />
       <workItem from="1556337561243" duration="3803000" />
       <workItem from="1556388663063" duration="1575000" />
-      <workItem from="1556410026139" duration="23819000" />
+      <workItem from="1556410026139" duration="24454000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1616121000" />
+    <option name="totallyTimeSpent" value="1616756000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -752,7 +759,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.6542811" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287483" sideWeight="0.3457189" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287483" sideWeight="0.3457189" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1102,30 +1109,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/InterviewPrep/WePay/ValidSudoku.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="766">
-          <caret line="54" column="1" lean-forward="false" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/InterviewPrep/WePay/ValidTriangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/InterviewPrep/WePay/StringCompression.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/InterviewPrep/WePay/ValidNumber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -1160,14 +1143,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/InterviewPrep/WePay/ReverseWordsInAString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="6" lean-forward="true" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/InterviewPrep/WePay/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="664">
@@ -1175,6 +1150,38 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InterviewPrep/WePay/ValidSudoku.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="18" lean-forward="true" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InterviewPrep/WePay/ValidTriangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InterviewPrep/WePay/StringCompression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InterviewPrep/WePay/ReverseWordsInAString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="41" column="28" lean-forward="false" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>

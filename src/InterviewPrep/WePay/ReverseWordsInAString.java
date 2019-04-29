@@ -41,10 +41,14 @@ public class ReverseWordsInAString {
         reverse(strChars, 0, strChars.length - 1);
 //      2. Reverse each word
         int start = 0;
+        while(start < strChars.length && strChars[start] == ' ')
+            start++;
         for (int i = 0; i < strChars.length; i++) {
             if (strChars[i] == ' ') {
                 reverse(strChars, start, i - 1);
                 start = i + 1;
+                while(start < strChars.length && strChars[start] == ' ')
+                    start++;
             }
         }
 //      3. Reverse the last word (Cuz no more ' ', so the last word won't be reversed in the for loop)
