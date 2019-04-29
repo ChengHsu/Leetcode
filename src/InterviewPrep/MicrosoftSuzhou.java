@@ -72,108 +72,15 @@ public class MicrosoftSuzhou {
 
     /**
      * LC#41. First Missing Positive
-     * Given an unsorted integer array, find the smallest missing positive integer.
-     * 第一次遍历: 交换数组元素，使数组中第i位存放数值(i+1)
-     * 第二次遍历：寻找第一个不符合要求的元素返回其下标+1
-     * time: O(n)
-     * space: O(1)
-     *
-     * @param A
-     * @return
-     */
-    public int firstMissingPositive(int[] A) {
-        int i = 0;
-        while (i < A.length) {
-            if (A[i] >= 1 && A[i] <= A.length && A[A[i] - 1] != A[i]) {
-                swap(A, i, A[i] - 1);
-            } else i++;
-        }
-        i = 0;
-        while (i < A.length && A[i] == i + 1) {
-            i++;
-        }
-        return i + 1;
-
-    }
-
-    private void swap(int[] A, int idx1, int idx2) {
-        int tmp = A[idx1];
-        A[idx1] = A[idx2];
-        A[idx2] = tmp;
-    }
-
-
-    /**
      * LC#136. Single Number
-     * Given a non-empty array of integers, every element appears twice except for one. Find that single one.
-     * Bit Operation
-     * 异或：相同的数异或得0，只剩出现次数位1的数
-     * time: O(n)
-     * space: O(1)
-     *
-     * @param nums
-     * @return
-     */
-    public int singleNumber(int[] nums) {
-        int res = 0;
-        for (int i = 0; i < nums.length; i++) {
-            res ^= nums[i];
-        }
-        return res;
-    }
-
-
-    /**
      * LC#1. Two Sum
-     * Given an array of integers, return indices of the two numbers such that they add up to a specific target.
-     * You may assume that each input would have exactly one solution, and you may not use the same element twice.
-     * time: O(n)
-     * space: O(n)
-     *
-     * @param nums
-     * @return
-     */
-    public int[] twoSum(int[] nums, int target) {
-        if (nums.length == 0)
-            return new int[]{};
-
-        HashMap<Integer, Integer> map = new HashMap<>();
-        for (int i = 0; i < nums.length; i++) {
-            if (map.containsKey(nums[i]))
-                return new int[]{map.get(nums[i]), i};
-            else
-                map.put(target - nums[i], i);
-        }
-        return new int[]{};
-    }
-
-    /**
      * LC#167. Two Sum II - Input array is sorted
-     * Given an array of integers that is already sorted in ascending order,
-     * find two numbers such that they add up to a specific target number.
-     * time: O(logn)
-     * space:O(1)
      *
-     * @param nums
-     * @param target
-     * @return
-     */
-    public int[] twoSumII(int[] nums, int target) {
-        int low = 0;
-        int high = 0;
-        while (low <= high) {
-            if (nums[low] + nums[high] == target)
-                return new int[]{low + 1, high + 1};
-            else if (nums[low] + nums[high] < target)
-                low++;
-            else
-                high--;
-        }
-        return new int[]{};
-    }
+
 
 
     /**
+
      * 剑指offer：二叉树的下一个结点
      * 如果当前节点有右子节点，则下一个节点是右子树的最左子节点
      * 如果当前节点没有右子节点，
@@ -1704,34 +1611,35 @@ public class MicrosoftSuzhou {
         return counts[0];
     }
 
-
     /**
-     * LRU
+     * java basic
      */
-
-    /**
-     * 给定一个邻接矩阵，0代表不相邻，1代表相邻，给定k个颜色，求出每个item应该怎么涂色
-     */
-    /**
-     * Dynamic Programming: 背包
-     */
-
-    /**
-     * R树
-     */
-
-    /**
-     *  服务器有一个非常大的字典，每次备份的时候都要所有内容备份一次，如果备份的过程中突然crash了，又要重新写，问我有什么好的解决方案
-     */
-    /**
-     * java inheritance, generics, class vs. interface
-     */
-    /**
-     * Find the minimum absolute sum of two numbers in an array
-     */
-    /**
+     /**
+     Final Round:
+     * LC Largest Rectangle in Histogram
      * 凸包问题
      *  https://blog.csdn.net/Bone_ACE/article/details/46239187
+     * 01 Matrix
+     * 链表环及证明
+     * 求数组第K大
+     * Decode Ways
+     * merge 2 sorted lists
+     * Add Strings
+     * Longest Increasing Path in a Matrix
+     * Battleships in a Board
+     * Input n return 所有比n小的amicable number 计算给定的约数之和 for loop
+     * Sorted Abs Ordered linkedList
+     * 地球上哪个地方可以向北走1KM，再向东走1KM 再向南走1KM，回到起点： 所有向北走1KM后，所在的纬线圈长度的整数倍是1KM的点集
+     * 单例模式
+     * LCA with parent pointer
+     * Minimum Path Sum 用油量和path
+     * Design HashMap
+     * Design Twitter
+     * 识别IP地址: Restore IP Addresses &  Validate IP Address
+     * n!
+     * 2个String s1,s2 , 如果 f(s1.substring) = f(s2.substring) 且f:改变字符串中的一个字符，找出所有的s1.substring
+     * 滑雪场最长路径，一个矩阵表明滑雪场不同位置的高度，只能从高处往低处滑
+     * Closest Binary Search Tree Value
      */
 
 

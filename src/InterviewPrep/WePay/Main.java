@@ -24,11 +24,31 @@ public class Main {
 //        System.out.println(calendarCalculate.getDate(2019));
 
 
-        Alerter alerter = new Alerter();
+//        Alerter alerter = new Alerter();
+//
+//        System.out.println(alerter.raiseAlert(new int[]{1,2,100,2,2},3, 1.5));
+//        System.out.println(alerter.raiseAlert(new int[]{1,2,4,2,2},3, 2));
+//        System.out.println(alerter.raiseAlert(new int[]{1,2,100,2,2},2, 2.5));
 
-        System.out.println(alerter.raiseAlert(new int[]{1,2,100,2,2},3, 1.5));
-        System.out.println(alerter.raiseAlert(new int[]{1,2,4,2,2},3, 2));
-        System.out.println(alerter.raiseAlert(new int[]{1,2,100,2,2},2, 2.5));
+
+//        ReverseWordsInAString reverseWordsInAString = new ReverseWordsInAString();
+//        System.out.println(reverseWordsInAString.reverseWords("This is a question"));
+
+//        int[] nums = new int[]{-2,1,-3,4,-1,2,1,-5,4};
+//        MaximumSubarray maximumSubarray = new MaximumSubarray();
+//        System.out.println(maximumSubarray.maxSubArrayV3(nums));
+//        String[] words = new String[]{"This", "is", "an", "example", "of", "text", "justification."};
+//        TextJustification textJustification = new TextJustification();
+//        System.out.println(textJustification.fullJustify(words, 16));
+
+//        ValidNumber validNumber = new ValidNumber();
+//        System.out.println(validNumber.isNumber("e"));
+//        String[] tokens = new String[]{"2","/","3","*"};
+//        EvaluateReversePolishNotation evaluateReversePolishNotation = new EvaluateReversePolishNotation();
+//        System.out.println(evaluateReversePolishNotation.evalRPN(tokens));
+
+        ReverseWordsInAString reverseWordsInAString = new ReverseWordsInAString();
+        System.out.println(reverseWordsInAString.reverseWordsWithSpaces("  This is a  question "));
 
     }
 }

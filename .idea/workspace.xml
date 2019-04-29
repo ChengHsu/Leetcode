@@ -5,50 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="568117d6-3877-4c5c-87ca-bc6a35a28b9e" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/DynamicProgramming/ClimbingStairs.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/DynamicProgramming/DecodeWays.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/DynamicProgramming/HouseRobber.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/DynamicProgramming/LCS.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/DynamicProgramming/MaximumSubarray.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/DynamicProgramming/UniqueBinarySearchTrees.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/DynamicProgramming/UniquePaths.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/DynamicProgramming/ZeroOneMatrix.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Graph/NumberOfConnectedComponentsInAnUndirectedGraph.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/InterviewPrep/AmazonCN.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/InterviewPrep/MSSuzhou/AddStrings.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/InterviewPrep/MSSuzhou/AmicableNumber.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/InterviewPrep/MSSuzhou/Cluster.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/InterviewPrep/MSSuzhou/MinimumOilCost.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/InterviewPrep/MSSuzhou/MyHashMap.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/InterviewPrep/MSSuzhou/SortAbsOrderedLinkedList.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/InterviewPrep/MSSuzhou/Twitter.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/InterviewPrep/MSSuzhou/exponentialN.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/InterviewPrep/WePay/Alerter.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/InterviewPrep/WePay/Braces.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/InterviewPrep/WePay/CalendarCalculate.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/InterviewPrep/WePay/Main.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/InterviewPrep/WePay/Nurikabeis.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/InterviewPrep/WePay/PowerNumber.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/InterviewPrep/WePay/ZombieCluster.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/InterviewPrep/MSSuzhou/LCAWithParent.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/InterviewPrep/WePay/EvaluateReversePolishNotation.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/InterviewPrep/WePay/MaximumProductSubarray.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/InterviewPrep/WePay/MaximumSubarray.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/InterviewPrep/WePay/ReverseWordsInAString.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/InterviewPrep/WePay/StringCompression.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/InterviewPrep/WePay/TextJustification.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/InterviewPrep/WePay/ValidNumber.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/InterviewPrep/WePay/ValidSudoku.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/InterviewPrep/WePay/ValidTriangle.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeTest/Backtracking/CombinationSum.class" afterPath="$PROJECT_DIR$/out/production/LeetcodeTest/Backtracking/CombinationSum.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeTest/Backtracking/WordBreak.class" afterPath="$PROJECT_DIR$/out/production/LeetcodeTest/Backtracking/WordBreak.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeTest/DFSAndBFS/WordLadder.class" afterPath="$PROJECT_DIR$/out/production/LeetcodeTest/DFSAndBFS/WordLadder.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeTest/DynamicProgramming/AllPathsFromTopLeftToBottomRightOf2DArray.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeTest/DynamicProgramming/Main.class" afterPath="$PROJECT_DIR$/out/production/LeetcodeTest/DynamicProgramming/Main.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeTest/InterviewPrep/Main.class" afterPath="$PROJECT_DIR$/out/production/LeetcodeTest/InterviewPrep/Main.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeTest/InterviewPrep/MicrosoftSuzhou_SDE_Intern$BSTIterator.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeTest/InterviewPrep/MicrosoftSuzhou_SDE_Intern$LargestNumberComparator.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeTest/InterviewPrep/MicrosoftSuzhou_SDE_Intern$MinStack$Node.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeTest/InterviewPrep/MicrosoftSuzhou_SDE_Intern$MinStack.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeTest/InterviewPrep/MicrosoftSuzhou_SDE_Intern.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Backtracking/CombinationSum.java" afterPath="$PROJECT_DIR$/src/Backtracking/CombinationSum.java" />
-      <change beforePath="$PROJECT_DIR$/src/Backtracking/WordBreak.java" afterPath="$PROJECT_DIR$/src/Backtracking/WordBreak.java" />
-      <change beforePath="$PROJECT_DIR$/src/DFSAndBFS/WordLadder.java" afterPath="$PROJECT_DIR$/src/DFSAndBFS/WordLadder.java" />
-      <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/AllPathsFromTopLeftToBottomRightOf2DArray.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/Main.java" afterPath="$PROJECT_DIR$/src/DynamicProgramming/Main.java" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewPrep/Main.java" afterPath="$PROJECT_DIR$/src/InterviewPrep/Main.java" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewPrep/MicrosoftSuzhou_SDE_Intern.java" afterPath="$PROJECT_DIR$/src/InterviewPrep/MicrosoftSuzhou.java" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeTest/InterviewPrep/MSSuzhou/Cluster$Point.class" afterPath="$PROJECT_DIR$/out/production/LeetcodeTest/InterviewPrep/MSSuzhou/Cluster$Point.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeTest/InterviewPrep/MSSuzhou/Cluster.class" afterPath="$PROJECT_DIR$/out/production/LeetcodeTest/InterviewPrep/MSSuzhou/Cluster.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeTest/InterviewPrep/MSSuzhou/MyHashMap$Entry.class" afterPath="$PROJECT_DIR$/out/production/LeetcodeTest/InterviewPrep/MSSuzhou/MyHashMap$Entry.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeTest/InterviewPrep/MSSuzhou/MyHashMap.class" afterPath="$PROJECT_DIR$/out/production/LeetcodeTest/InterviewPrep/MSSuzhou/MyHashMap.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeTest/InterviewPrep/MicrosoftSuzhou$LargestNumberComparator.class" afterPath="$PROJECT_DIR$/out/production/LeetcodeTest/InterviewPrep/MicrosoftSuzhou$LargestNumberComparator.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeTest/InterviewPrep/MicrosoftSuzhou$MinStack$Node.class" afterPath="$PROJECT_DIR$/out/production/LeetcodeTest/InterviewPrep/MicrosoftSuzhou$MinStack$Node.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeTest/InterviewPrep/MicrosoftSuzhou$MinStack.class" afterPath="$PROJECT_DIR$/out/production/LeetcodeTest/InterviewPrep/MicrosoftSuzhou$MinStack.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeTest/InterviewPrep/MicrosoftSuzhou.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeTest/InterviewPrep/WePay/Main.class" afterPath="$PROJECT_DIR$/out/production/LeetcodeTest/InterviewPrep/WePay/Main.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeTest/test/Main.class" afterPath="$PROJECT_DIR$/out/production/LeetcodeTest/test/Main.class" />
+      <change beforePath="$PROJECT_DIR$/src/InterviewPrep/MSSuzhou/Cluster.java" afterPath="$PROJECT_DIR$/src/InterviewPrep/MSSuzhou/Cluster.java" />
+      <change beforePath="$PROJECT_DIR$/src/InterviewPrep/MicrosoftSuzhou.java" afterPath="$PROJECT_DIR$/src/InterviewPrep/MicrosoftSuzhou.java" />
+      <change beforePath="$PROJECT_DIR$/src/InterviewPrep/WePay/Main.java" afterPath="$PROJECT_DIR$/src/InterviewPrep/WePay/Main.java" />
       <change beforePath="$PROJECT_DIR$/src/test/Main.java" afterPath="$PROJECT_DIR$/src/test/Main.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -61,11 +41,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LCS.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/LCS.java">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/InterviewPrep/WePay/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+            <state relative-caret-position="664">
+              <caret line="50" column="98" lean-forward="false" selection-start-line="50" selection-start-column="98" selection-end-line="50" selection-end-column="98" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -73,119 +53,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MinimumOilCost.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/InterviewPrep/MSSuzhou/MinimumOilCost.java">
+      <file leaf-file-name="ReverseWordsInAString.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/InterviewPrep/WePay/ReverseWordsInAString.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-397">
-              <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+            <state relative-caret-position="495">
+              <caret line="33" column="6" lean-forward="true" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyHashMap.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/InterviewPrep/MSSuzhou/MyHashMap.java">
+      <file leaf-file-name="MaximumProductSubarray.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/InterviewPrep/WePay/MaximumProductSubarray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="106" column="38" lean-forward="true" selection-start-line="106" selection-start-column="38" selection-end-line="106" selection-end-column="38" />
-              <folding>
-                <element signature="e#1684#1685#0" expanded="true" />
-                <element signature="e#1742#1743#0" expanded="true" />
-                <element signature="e#1780#1781#0" expanded="true" />
-                <element signature="e#1830#1831#0" expanded="true" />
-                <element signature="e#3127#3128#0" expanded="true" />
-                <element signature="e#3154#3155#0" expanded="true" />
-                <element signature="e#3189#3190#0" expanded="true" />
-                <element signature="e#3226#3227#0" expanded="true" />
-                <element signature="e#3260#3261#0" expanded="true" />
-                <element signature="e#3325#3326#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Object.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/lang/Object.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="99" column="19" lean-forward="true" selection-start-line="99" selection-start-column="19" selection-end-line="99" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Twitter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/InterviewPrep/MSSuzhou/Twitter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-901">
-              <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1181#1182#0" expanded="true" />
-                <element signature="e#1221#1222#0" expanded="true" />
-                <element signature="e#1260#1261#0" expanded="true" />
-                <element signature="e#1303#1304#0" expanded="true" />
-                <element signature="e#1602#1603#0" expanded="true" />
-                <element signature="e#1656#1657#0" expanded="true" />
-                <element signature="e#2600#2607#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Cluster.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/InterviewPrep/MSSuzhou/Cluster.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="63" column="25" lean-forward="false" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#751#752#0" expanded="true" />
-                <element signature="e#800#801#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AmicableNumber.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/InterviewPrep/MSSuzhou/AmicableNumber.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="48" column="36" lean-forward="true" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UniqueBinarySearchTrees.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/UniqueBinarySearchTrees.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="556">
-              <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="exponentialN.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/InterviewPrep/MSSuzhou/exponentialN.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="67" lean-forward="false" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
+            <state relative-caret-position="317">
+              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -220,6 +102,8 @@
       <find>LCA</find>
       <find>sele</find>
       <find>valid</find>
+      <find>Kth</find>
+      <find>step</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -233,24 +117,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/bytedance/magicWeight.java" />
-        <option value="$PROJECT_DIR$/src/Stack/MinStack.java" />
-        <option value="$PROJECT_DIR$/src/TopologicalSort/topological_sort.md" />
-        <option value="$PROJECT_DIR$/src/Sort/Main.java" />
-        <option value="$PROJECT_DIR$/src/Sort/MergeSort.java" />
-        <option value="$PROJECT_DIR$/src/BitManipulation/Main.java" />
-        <option value="$PROJECT_DIR$/src/singleton/HungrySingleton.java" />
-        <option value="$PROJECT_DIR$/src/singleton/LazySingleton.java" />
-        <option value="$PROJECT_DIR$/src/InterviewPrep/Main.java" />
-        <option value="$PROJECT_DIR$/src/InterviewPrep/MicrosoftSuzhou_SDE_Intern.java" />
-        <option value="$PROJECT_DIR$/src/Graph/NumberOfConnectedComponentsInAnUndirectedGraph.java" />
         <option value="$PROJECT_DIR$/src/InterviewPrep/WePay.java" />
         <option value="$PROJECT_DIR$/src/InterviewPrep/Alerter.java" />
         <option value="$PROJECT_DIR$/src/InterviewPrep/WePay/ZombieCluster.java" />
         <option value="$PROJECT_DIR$/src/InterviewPrep/WePay/Braces.java" />
         <option value="$PROJECT_DIR$/src/InterviewPrep/WePay/Calendar.java" />
         <option value="$PROJECT_DIR$/src/InterviewPrep/WePay/PowerNumber.java" />
-        <option value="$PROJECT_DIR$/src/InterviewPrep/WePay/Main.java" />
         <option value="$PROJECT_DIR$/src/InterviewPrep/WePay/CalendarCalculate.java" />
         <option value="$PROJECT_DIR$/src/InterviewPrep/WePay/Alerter.java" />
         <option value="$PROJECT_DIR$/src/Backtracking/CombinationSum.java" />
@@ -258,7 +130,6 @@
         <option value="$PROJECT_DIR$/src/Backtracking/WordBreak.java" />
         <option value="$PROJECT_DIR$/src/InterviewPrep/AmazonCN.java" />
         <option value="$PROJECT_DIR$/src/Sort/QuickSort.java" />
-        <option value="$PROJECT_DIR$/src/test/Main.java" />
         <option value="$PROJECT_DIR$/src/InterviewPrep/MicrosoftSuzhou.java" />
         <option value="$PROJECT_DIR$/src/DynamicProgramming/ClimbingStairs.java" />
         <option value="$PROJECT_DIR$/src/DynamicProgramming/HouseRobber.java" />
@@ -272,7 +143,6 @@
         <option value="$PROJECT_DIR$/src/DynamicProgramming/exponentialN.java" />
         <option value="$PROJECT_DIR$/src/DynamicProgramming/SumOfProperDivisors.java" />
         <option value="$PROJECT_DIR$/src/DynamicProgramming/AmicableNumber.java" />
-        <option value="$PROJECT_DIR$/src/InterviewPrep/MSSuzhou/AmicableNumber.java" />
         <option value="$PROJECT_DIR$/src/InterviewPrep/MSSuzhou/exponentialN.java" />
         <option value="$PROJECT_DIR$/src/InterviewPrep/MSSuzhou/AddStrings.java" />
         <option value="$PROJECT_DIR$/src/DynamicProgramming/LCS.java" />
@@ -284,6 +154,20 @@
         <option value="$PROJECT_DIR$/src/InterviewPrep/MSSuzhou/Twitter.java" />
         <option value="$PROJECT_DIR$/src/InterviewPrep/MSSuzhou/MyHashMap.java" />
         <option value="$PROJECT_DIR$/src/InterviewPrep/MSSuzhou/Cluster.java" />
+        <option value="$PROJECT_DIR$/src/InterviewPrep/MSSuzhou/AmicableNumber.java" />
+        <option value="$PROJECT_DIR$/src/test/Main.java" />
+        <option value="$PROJECT_DIR$/src/InterviewPrep/MSSuzhou/LCAWithParent.java" />
+        <option value="$PROJECT_DIR$/src/InterviewPrep/WePay/ReverseString.java" />
+        <option value="$PROJECT_DIR$/src/InterviewPrep/WePay/MaximumSubarray.java" />
+        <option value="$PROJECT_DIR$/src/InterviewPrep/WePay/TextJustification.java" />
+        <option value="$PROJECT_DIR$/src/InterviewPrep/WePay/ValidSudoku.java" />
+        <option value="$PROJECT_DIR$/src/InterviewPrep/WePay/ValidTriangle.java" />
+        <option value="$PROJECT_DIR$/src/InterviewPrep/WePay/StringCompression.java" />
+        <option value="$PROJECT_DIR$/src/InterviewPrep/WePay/ValidNumber.java" />
+        <option value="$PROJECT_DIR$/src/InterviewPrep/WePay/EvaluateReversePolishNotation.java" />
+        <option value="$PROJECT_DIR$/src/InterviewPrep/WePay/MaximumProductSubarray.java" />
+        <option value="$PROJECT_DIR$/src/InterviewPrep/WePay/ReverseWordsInAString.java" />
+        <option value="$PROJECT_DIR$/src/InterviewPrep/WePay/Main.java" />
       </list>
     </option>
   </component>
@@ -293,7 +177,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="634" />
     <option name="height" value="800" />
   </component>
@@ -313,9 +197,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -332,12 +213,6 @@
               <item name="LeetcodeTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetcodeTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="DynamicProgramming" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetcodeTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetcodeTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="InterviewPrep" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -345,12 +220,21 @@
               <item name="LeetcodeTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="InterviewPrep" type="462c0819:PsiDirectoryNode" />
-              <item name="MSSuzhou" type="462c0819:PsiDirectoryNode" />
+              <item name="WePay" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetcodeTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetcodeTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -379,15 +263,34 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyHashMap">
-    <configuration name="AmicableNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="InterviewPrep.MSSuzhou.*" />
+          <option name="PATTERN" value="InterviewPrep.WePay.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="InterviewPrep.MSSuzhou.AmicableNumber" />
+      <option name="MAIN_CLASS_NAME" value="InterviewPrep.WePay.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="LeetcodeTest" />
+      <envs />
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="test.Main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -494,25 +397,6 @@
       <module name="LeetcodeTest" />
       <envs />
     </configuration>
-    <configuration name="SumOfProperDivisors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="InterviewPrep.MSSuzhou.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="DynamicProgramming.SumOfProperDivisors" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="LeetcodeTest" />
-      <envs />
-    </configuration>
     <configuration name="exponentialN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -548,19 +432,18 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.SumOfProperDivisors" />
-      <item index="1" class="java.lang.String" itemvalue="Application.AmicableNumber" />
-      <item index="2" class="java.lang.String" itemvalue="Application.SortAbsOrderedLinkedList" />
-      <item index="3" class="java.lang.String" itemvalue="Application.MinimumOilCost" />
-      <item index="4" class="java.lang.String" itemvalue="Application.MyHashMap" />
+      <item index="0" class="java.lang.String" itemvalue="Application.exponentialN" />
+      <item index="1" class="java.lang.String" itemvalue="Application.SortAbsOrderedLinkedList" />
+      <item index="2" class="java.lang.String" itemvalue="Application.MyHashMap" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.MyHashMap" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MinimumOilCost" />
-        <item index="2" class="java.lang.String" itemvalue="Application.SortAbsOrderedLinkedList" />
-        <item index="3" class="java.lang.String" itemvalue="Application.AmicableNumber" />
-        <item index="4" class="java.lang.String" itemvalue="Application.SumOfProperDivisors" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.Main (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MyHashMap" />
+        <item index="3" class="java.lang.String" itemvalue="Application.SortAbsOrderedLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -846,16 +729,20 @@
       <workItem from="1554835512991" duration="175000" />
       <workItem from="1554920202040" duration="19029000" />
       <workItem from="1555029826650" duration="5361000" />
-      <workItem from="1555161768904" duration="15970000" />
+      <workItem from="1555161768904" duration="24618000" />
+      <workItem from="1555263626779" duration="1777000" />
+      <workItem from="1556040645750" duration="15709000" />
+      <workItem from="1556337561243" duration="3803000" />
+      <workItem from="1556388663063" duration="1575000" />
+      <workItem from="1556410026139" duration="23819000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1560790000" />
+    <option name="totallyTimeSpent" value="1616121000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -865,12 +752,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.6542811" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287483" sideWeight="0.3457189" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287483" sideWeight="0.3457189" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20840065" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22455573" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -926,79 +813,11 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="19" />
+      <option name="time" value="22" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/bytedance/woodPuzzle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-324">
-          <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bytedance/magicWeight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="45" column="36" lean-forward="false" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Stack/MinStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TopologicalSort/AlienDictionary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="78" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BitManipulation/GrayCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="623" column="18" lean-forward="false" selection-start-line="623" selection-start-column="12" selection-end-line="623" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/singleton/HungrySingleton.java" />
-    <entry file="file://$PROJECT_DIR$/src/TopologicalSort/topological_sort.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="240">
-            <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/singleton/LazySingleton.java" />
-    <entry file="file://$PROJECT_DIR$/src/BitManipulation/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="9" lean-forward="false" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TopologicalSort/CourseSchedule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkedList/LinkedListCycle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -1010,9 +829,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="51" column="19" lean-forward="false" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1044,13 +860,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/InterviewPrep/WePay/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="30" column="73" lean-forward="false" selection-start-line="30" selection-start-column="73" selection-end-line="30" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/InterviewPrep/WePay/CalendarCalculate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -1062,13 +871,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="37" column="19" lean-forward="false" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/InterviewPrep/WePay/ZombieCluster.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="40" column="26" lean-forward="false" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -1118,9 +920,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="408" column="20" lean-forward="false" selection-start-line="408" selection-start-column="20" selection-end-line="408" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1131,33 +930,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sort/QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="32" column="18" lean-forward="false" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/InterviewPrep/MicrosoftSuzhou.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="893" column="21" lean-forward="false" selection-start-line="893" selection-start-column="16" selection-end-line="893" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/ClimbingStairs.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="795">
           <caret line="53" column="5" lean-forward="false" selection-start-line="38" selection-start-column="4" selection-end-line="53" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1165,7 +941,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
           <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1174,7 +949,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
           <caret line="24" column="7" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="24" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1182,7 +956,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="67" lean-forward="false" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1190,15 +963,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="708">
           <caret line="94" column="10" lean-forward="false" selection-start-line="94" selection-start-column="10" selection-end-line="94" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/InterviewPrep/MSSuzhou/AddStrings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="5" lean-forward="false" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1206,7 +970,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1214,15 +977,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="29" column="34" lean-forward="false" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/InterviewPrep/MSSuzhou/exponentialN.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1230,19 +984,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="556">
           <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/InterviewPrep/MSSuzhou/AmicableNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="48" column="36" lean-forward="true" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1250,27 +991,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="718">
           <caret line="56" column="47" lean-forward="false" selection-start-line="56" selection-start-column="47" selection-end-line="56" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/LCS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/InterviewPrep/MSSuzhou/MinimumOilCost.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-397">
-          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1278,16 +998,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-901">
           <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1181#1182#0" expanded="true" />
-            <element signature="e#1221#1222#0" expanded="true" />
-            <element signature="e#1260#1261#0" expanded="true" />
-            <element signature="e#1303#1304#0" expanded="true" />
-            <element signature="e#1602#1603#0" expanded="true" />
-            <element signature="e#1656#1657#0" expanded="true" />
-            <element signature="e#2600#2607#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1303,29 +1013,167 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="403">
           <caret line="106" column="38" lean-forward="true" selection-start-line="106" selection-start-column="38" selection-end-line="106" selection-end-column="38" />
-          <folding>
-            <element signature="e#1684#1685#0" expanded="true" />
-            <element signature="e#1742#1743#0" expanded="true" />
-            <element signature="e#1780#1781#0" expanded="true" />
-            <element signature="e#1830#1831#0" expanded="true" />
-            <element signature="e#3127#3128#0" expanded="true" />
-            <element signature="e#3154#3155#0" expanded="true" />
-            <element signature="e#3189#3190#0" expanded="true" />
-            <element signature="e#3226#3227#0" expanded="true" />
-            <element signature="e#3260#3261#0" expanded="true" />
-            <element signature="e#3325#3326#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/InterviewPrep/MSSuzhou/Cluster.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="63" column="25" lean-forward="false" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
+        <state relative-caret-position="281">
+          <caret line="64" column="24" lean-forward="false" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sort/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="32" column="18" lean-forward="false" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InterviewPrep/WePay/ZombieCluster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="29" lean-forward="false" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InterviewPrep/MicrosoftSuzhou.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="748" column="20" lean-forward="false" selection-start-line="748" selection-start-column="20" selection-end-line="748" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InterviewPrep/MSSuzhou/LCAWithParent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="597">
+          <caret line="42" column="23" lean-forward="false" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InterviewPrep/MSSuzhou/AddStrings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="5" lean-forward="false" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InterviewPrep/MSSuzhou/exponentialN.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InterviewPrep/MSSuzhou/AmicableNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InterviewPrep/MSSuzhou/MinimumOilCost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/LCS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InterviewPrep/WePay/ReverseString.java" />
+    <entry file="file://$PROJECT_DIR$/src/InterviewPrep/WePay/MaximumSubarray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="88" column="32" lean-forward="false" selection-start-line="88" selection-start-column="32" selection-end-line="88" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InterviewPrep/WePay/ValidSudoku.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="766">
+          <caret line="54" column="1" lean-forward="false" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InterviewPrep/WePay/ValidTriangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InterviewPrep/WePay/StringCompression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InterviewPrep/WePay/ValidNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="33" column="8" lean-forward="false" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InterviewPrep/WePay/TextJustification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="62" column="30" lean-forward="true" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#751#752#0" expanded="true" />
-            <element signature="e#800#801#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InterviewPrep/WePay/EvaluateReversePolishNotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="23" column="29" lean-forward="false" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InterviewPrep/WePay/MaximumProductSubarray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InterviewPrep/WePay/ReverseWordsInAString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="6" lean-forward="true" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InterviewPrep/WePay/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="664">
+          <caret line="50" column="98" lean-forward="false" selection-start-line="50" selection-start-column="98" selection-end-line="50" selection-end-column="98" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

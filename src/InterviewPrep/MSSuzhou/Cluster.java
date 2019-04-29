@@ -61,7 +61,8 @@ public class Cluster {
             map.put(points[i],neighbors);
         }
 
-        dfs(points, map, )
+        //dfs(points, map, )
+        return clusters;
     }
 
     public double getDistance(Point a, Point b) {
