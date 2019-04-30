@@ -37,7 +37,7 @@ public class ReverseWordsInAString {
      */
     public String reverseWordsWithSpaces(String str) {
         char[] strChars = str.toCharArray();
-        //1. Reverse the whole sentence
+//      1. Reverse the whole sentence
         reverse(strChars, 0, strChars.length - 1);
 //      2. Reverse each word
         int start = 0;
@@ -51,8 +51,9 @@ public class ReverseWordsInAString {
                     start++;
             }
         }
-//      3. Reverse the last word (Cuz no more ' ', so the last word won't be reversed in the for loop)
-        reverse(strChars, start, strChars.length - 1);
+//      3. Reverse the last word (if no more ' ', the last word won't be reversed in the for loop)
+        if (start < strChars.length - 1)
+            reverse(strChars, start, strChars.length - 1);
 
         return new String(strChars);
     }
@@ -66,6 +67,5 @@ public class ReverseWordsInAString {
             end--;
         }
     }
-
 
 }

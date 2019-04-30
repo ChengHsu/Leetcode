@@ -10,6 +10,7 @@ import java.util.List;
  */
 public class TextJustification {
     /**
+     * iterate the words, during each iteration, we generate one line at a time
      * If it's one word then it is easy, the result is just that word.
      * If it's the last line then the result is all words separated by a single space.
      * Otherwise we calculate the size of each space evenly and if there is a remainder we distribute an extra space until it is gone.
@@ -28,6 +29,7 @@ public class TextJustification {
         while (index < words.length) {
             int currLen = words[index].length();
             int lastWordIdx = index + 1;
+            // forward to the right as far as possible
             while (lastWordIdx < words.length) {
                 if (currLen + words[lastWordIdx].length() + 1 > maxWidth)
                     break;
