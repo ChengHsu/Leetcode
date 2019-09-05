@@ -178,7 +178,7 @@ Priority Queue: always keep k points with k smallest distances in min heap
     }
 ```
 
-Quick Select: keep picking a pivot and partationing elements. Put all elements
+Quick Select: keep picking a pivot and partationing elements. Put all elements 
 `time`: O(n)
 `space`: O(1)
 ```
@@ -236,5 +236,5 @@ Quick Select: keep picking a pivot and partationing elements. Put all elements
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNzU0Mzk0NywtMzAzOTk1OTNdfQ==
+eyJoaXN0b3J5IjpbLTEzODMyMjM5MTksLTMwMzk5NTkzXX0=
 -->
