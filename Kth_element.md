@@ -89,7 +89,123 @@ Set two pointers: say `fast` and `slow`
 **Complexity**:
 - Time: O(len)
 - Space: O(1)
+
+
+## Follow Up
+### K-th Smallest Number in a Sorted Matrix
+#### Brute Force：
+Convert the matrix into one dimenson array, sort the array and return (k - 1)-th  element
+- time: O(n^2 log n^2)
+#### Heap
+Find min/max in a set (size > 2) => `Heap`
+Push : O(log n)
+Pop: O(log n)
+Top: O(1)
+```
+ for(int i = 0; i < k - 1; i++) {
+            Number min = heap.poll();
+            for(int j = 0; j < 2; j++) {
+                int nx = min.x + dx[j];
+                int ny = min.y + dy[j];
+                if(nx < matrix.length && ny < matrix[0].length && !visited[nx][ny]) {
+                    visited[nx][ny] = true;
+                    heap.add(new Number(nx, ny, matrix[nx][ny]));
+                }
+            }
+        }
+```
+
+### Kth Largest in N Arrays
+#### Heap
+1. Sort every array => O( n log n )
+2. Maintain n elements in max heap => O( log n)
+3. After pop a current max element, add the next element in its array into the heap
+4. Kth Largest is the k-th poped element
+`Time`: O(n log n + k log n)
+
+
+### Kth Smallest Sum in Two Sorted Arrays
+#### Heap
+We can construct a matrix consists of all the sums of any two elements from two arrays respectively:
+nums1: {1, 7 , 11}
+nums2: {2, 4, 6}
+matrix of sums:
+		 1  7  11
+	2	 3  9  13
+	4  5  11 15
+	6  7  13 17
+In this way, this problem is converted to compute the Kth Smallest number in a Sorted Matrix
+
+
+### Kth Smallest Product in Two Sorted Arrays (non-negative)
+We can construct a matrix consists of all the products of any two elements from two arrays respectively: 
+nums1: {1, 7, 11}
+nums2: {2, 4, 6}
+matrix of sums:
+		 1   7   11
+	2	 2  14  22
+	4   4  28  44
+	6   6  42  66
+In this way, this problem is converted to compute the Kth Smallest number in a Sorted Matrix
+
+
+### K Closest Points to Origin
+    Quick Select: keep picking a pivot and partationing elements. Put all elements
+    time: O(n)
+    space: O(1)
+```
+    public int[][] kClosest(int[][] points, int K) {
+        if(points == null || points.length == 0 || points[0] == null || points[0].length == 0 || points.length < K)
+            return null;
+        
+        int l = 0;
+        int r = points.length - 1;
+        while(l <= r) {
+            int mid = (r - l) / 2 + l;
+            mid = partition(points, l, r, mid);
+            if(mid == K - 1)
+                break;
+            else if(mid < K - 1)
+                l = mid + 1;
+            else
+                r = mid - 1;
+        }
+        
+        return Arrays.copyOfRange(points, 0, K);
+    }
+    
+    private int partition(int[][]points, int l, int r, int pivotIdx) {
+        int[] pivot = points[pivotIdx];
+        swap(points, pivotIdx, r);
+        int pivotDis = getDis(pivot);
+        int idx = l;
+        for(int i = l; i < r; i++) {
+            if(getDis(points[i]) < pivotDis) {
+                swap(points, idx, i);
+                idx++;
+            }
+        }
+        // put pivot at its right position
+        swap(points, idx, r);
+        return idx;
+    }
+
+     private int getDis(int[] p) {
+        return p[0] * p[0] + p[1] * p[1];
+    }
+    
+    private void swap(int[][] points, int a, int b) {
+        int[] tmp = points[a];
+        points[a] = points[b];
+        points[b] = tmp;
+    }
+
+
+
+
+
+
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMzk5NTkzXX0=
+eyJoaXN0b3J5IjpbLTEyNDU0NDQ0ODQsLTMwMzk5NTkzXX0=
 -->
