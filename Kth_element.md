@@ -150,9 +150,9 @@ In this way, this problem is converted to compute the Kth Smallest number in a S
 
 
 ### K Closest Points to Origin
-    Priority Queue: always keep k points with k smallest distances in min heap
-    time: O(n log k)
-    space: O(k)
+Priority Queue: always keep k points with k smallest distances in min heap
+`time`: O(n log k)
+`space`: O(k)
 ```
     public int[][] kClosest(int[][] points, int K) {
         int[][] res = new int[K][2];
@@ -176,9 +176,11 @@ In this way, this problem is converted to compute the Kth Smallest number in a S
      private int getDis(int[] p) {
         return p[0] * p[0] + p[1] * p[1];
     }
-    Quick Select: keep picking a pivot and partationing elements. Put all elements
-    time: O(n)
-    space: O(1)
+```
+
+Quick Select: keep picking a pivot and partationing elements. Put all elements
+`time`: O(n)
+`space`: O(1)
 ```
     public int[][] kClosest(int[][] points, int K) {
         if(points == null || points.length == 0 || points[0] == null || points[0].length == 0 || points.length < K)
@@ -225,7 +227,7 @@ In this way, this problem is converted to compute the Kth Smallest number in a S
         points[a] = points[b];
         points[b] = tmp;
     }
-   ```
+```
 
 
 
@@ -234,5 +236,5 @@ In this way, this problem is converted to compute the Kth Smallest number in a S
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMTg1Nzc0OSwtMzAzOTk1OTNdfQ==
+eyJoaXN0b3J5IjpbLTgwNzU0Mzk0NywtMzAzOTk1OTNdfQ==
 -->
