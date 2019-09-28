@@ -11,7 +11,10 @@ public class LongestCommonPrefix {
     /**
      * Scanning
      * 遍历字符串，判断第一个字符串是否存在于其他各字符串中，若存在则继续判断下一个，若不存在则第一个字符串长度减1看是否存在
-     * Time: O(n)
+     * Time: O(S), where S is the sum of all characters in all strings.
+     * In the worst case all n strings are the same. The algorithm compares the string S1 with the other strings [S_2...S_n]
+     * There are S character comparisons, where S is the sum of all characters in the input array.
+     * Space: O(1)
      * @param strs
      * @return
      */
@@ -29,6 +32,7 @@ public class LongestCommonPrefix {
 //        }
 //        return prefix;
 //    }
+
 
     /**
      * Divide and Conquer
@@ -60,6 +64,8 @@ public class LongestCommonPrefix {
 //        }
 //        return leftLCP.substring(0,min);
 //    }
+
+
 
 
     /**
@@ -101,6 +107,83 @@ public class LongestCommonPrefix {
                 return false;
         }
         return true;
+    }
+
+
+    /**
+     * Follow up: Given a set of keys S = [S1,S2...Sn], find the longest common prefix among a string q and S.
+     * This LCP query will be called frequently.
+     * @param q
+     * @param strs
+     * @return
+     */
+    public String longestCommonPrefix(String q, String[] strs) {
+        if(strs == null || strs.length == 0)
+            return "";
+        if(strs.length == 1)
+            return strs[0];
+
+        Trie trie = new Trie();
+        for (int i = 1; i < strs.length ; i++) {
+            trie.insert(strs[i]);
+        }
+        return trie.searchLongestPrefix(q);
+    }
+
+
+    class TrieNode {
+        private TrieNode[] links;
+        private final int R = 26;
+        private boolean isEnd;
+        private int size;
+
+        public void put(char ch, TrieNode node) {
+            links[ch - 'a'] = node;
+            size++;
+        }
+
+        public int getLinks() {
+            return size;
+        }
+
+        public boolean containsKey(char ch) {
+            return links[ch -'a'] != null;
+        }
+
+        public boolean isEnd() {
+            return isEnd;
+        }
+
+        public TrieNode get(char ch) {
+            return links[ch -'a'];
+        }
+    }
+
+    class Trie {
+        private TrieNode root;
+
+        public Trie() {
+            root = new TrieNode();
+        }
+
+        private String searchLongestPrefix(String word) {
+            TrieNode node = root;
+            StringBuilder prefix = new StringBuilder();
+            for (int i = 0; i < word.length(); i++) {
+                char curLetter = word.charAt(i);
+                if(node.containsKey(curLetter) && node.getLinks() == 1 && !node.isEnd()) {
+                    prefix.append(curLetter);
+                    node = node.get(curLetter);
+                } else {
+                    return prefix.toString();
+                }
+            }
+
+            return prefix.toString();
+        }
+
+        public void insert(String str) {
+        }
     }
 
 }
