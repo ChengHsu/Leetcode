@@ -6,6 +6,17 @@ package Yext;
  * @Author: Created by xucheng.
  */
 public class TreeToMaxHeap {
+    /**
+     * test case:
+               9
+            /     \
+           7       4
+         /   \    / \
+        10   5  5   2
+       / \   /\
+      3  19 8 12
+     *
+     */
     static class Node{
         int val;
         Node left;
