@@ -107,5 +107,12 @@ if(s.charAt(i) != t.charAt(i))
 # for loop结束并没有不同的字符
 return s.length() - t.length();
 ```
+#### Java Arrays.sort
+When use `Comparator` for `Arrays.sort()`, the implementation is **mergeSort**, which is stable. i.e.**keep the order if 2 elements are the same**
+However, `Array.sort()` for primitive types array without using `Comparator`, the implementation is **quickSort**
+
   
-  
+
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTIwMTEwMzQwMTddfQ==
+-->
